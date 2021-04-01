@@ -1,0 +1,28 @@
+Results of NGD DRC are available in gGMUX_BKeys_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/mg5a00/data/mg5alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/ep5a00/data/ep5alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/ep5g00/data/ep5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'LPC_AD[3]' has no load.
+WARNING - synthesis: input pad net 'LPC_AD[3]' has no legal load.
+WARNING - synthesis: logical net 'LPC_AD[2]' has no load.
+WARNING - synthesis: input pad net 'LPC_AD[2]' has no legal load.
+WARNING - synthesis: logical net 'LPC_AD[1]' has no load.
+WARNING - synthesis: input pad net 'LPC_AD[1]' has no legal load.
+WARNING - synthesis: logical net 'LPC_AD[0]' has no load.
+WARNING - synthesis: input pad net 'LPC_AD[0]' has no legal load.
+WARNING - synthesis: logical net 'LPC_FRAME_L' has no load.
+WARNING - synthesis: input pad net 'LPC_FRAME_L' has no legal load.
+WARNING - synthesis: logical net 'LPCPLUS_RESET_L' has no load.
+WARNING - synthesis: input pad net 'LPCPLUS_RESET_L' has no legal load.
+WARNING - synthesis: DRC complete with 12 warnings.
+
+Design Results:
+    389 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file dGMUX_BKeys_master.ngd.

@@ -1,0 +1,336 @@
+
+         Lattice Mapping Report File for Design Module 'gGMUX_BKeys'
+
+
+Design Information
+------------------
+
+Command line:   map -a LatticeXP2 -p LFXP2-5E -t CSBGA132 -s 5 -oc Commercial
+     dGMUX_BKeys_master.ngd -o dGMUX_BKeys_master_map.ncd -pr
+     dGMUX_BKeys_master.prf -mp dGMUX_BKeys_master.mrp -lpf
+     C:/Users/Sjenja/source/repos/dGMUX/master/dGMUX_BKeys_master.lpf -lpf
+     C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf -gui 
+Target Vendor:  LATTICE
+Target Device:  LFXP2-5ECSBGA132
+Target Performance:   5
+Mapper:  mg5a00,  version:  Diamond (64-bit) 3.12.0.240.2
+Mapped on:  04/02/21  00:36:03
+
+Design Summary
+--------------
+
+   Number of registers:    113 out of  3822 (3%)
+      PFU registers:          113 out of  3564 (3%)
+      PIO registers:            0 out of   258 (0%)
+   Number of SLICEs:       159 out of  2376 (7%)
+      SLICEs as Logic/ROM:    159 out of  2376 (7%)
+      SLICEs as RAM:            0 out of   405 (0%)
+      SLICEs as Carry:         46 out of  2376 (2%)
+   Number of LUT4s:        267 out of  4752 (6%)
+      Number used as logic LUTs:        175
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       92
+      Number used as shift registers:     0
+   Number of PIO sites used: 44 out of 86 (51%)
+      Number of PIO sites used for single ended IOs: 14
+      Number of PIO sites used for differential IOs: 30 (represented by 15 PIO
+     comps in NCD)
+   Number of PIO FIXEDDELAY:    0
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of block RAMs:  0 out of 9 (0%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+        Number Of Mapped DSP Components:
+   --------------------------------
+   MULT36X36B          0
+   MULT18X18B          0
+   MULT18X18MACB       0
+   MULT18X18ADDSUBB    0
+   MULT18X18ADDSUBSUMB 0
+   MULT9X9B            0
+   MULT9X9ADDSUBB      0
+
+                                    Page 1
+
+
+
+
+Design:  gGMUX_BKeys                                   Date:  04/02/21  00:36:03
+
+Design Summary (cont)
+---------------------
+   MULT9X9ADDSUBSUMB   0
+   --------------------------------
+   Number of Used DSP Sites:  0 out of 24 (0 %)
+   Number of clocks:  3
+     Net LPC_CLK33M_GMUX_c: 70 loads, 70 rising, 0 falling (Driver: PIO
+     LPC_CLK33M_GMUX )
+     Net Frame_Clock: 1 loads, 1 rising, 0 falling (Driver: Frame_Clock_101 )
+     Net Key_Clock: 3 loads, 3 rising, 0 falling (Driver: Key_Clock_105 )
+   Number of Clock Enables:  17
+     Net LPC_CLK33M_GMUX_c_enable_1: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_2: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_21: 6 loads, 6 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_10: 5 loads, 5 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_32: 2 loads, 2 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_30: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_24: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_33: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_29: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_28: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_23: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_25: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_26: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_27: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_36: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_35: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_34: 1 loads, 1 LSLICEs
+   Number of LSRs:  5
+     Net Frame_Counter_16_N_146_16: 16 loads, 16 LSLICEs
+     Net Delay_Counter_10__N_143: 6 loads, 6 LSLICEs
+     Net Prescale_Counter_22: 12 loads, 12 LSLICEs
+     Net n4783: 7 loads, 7 LSLICEs
+     Net n2647: 9 loads, 9 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net VCC_net: 60 loads
+     Net Brightness_Level_2: 41 loads
+     Net Brightness_Level_4: 39 loads
+     Net Brightness_Level_1: 31 loads
+     Net Brightness_Level_3: 29 loads
+     Net Brightness_Trigger_dly: 27 loads
+     Net Brightness_Level_0: 25 loads
+     Net GMUX_RESET_L_c: 19 loads
+     Net Frame_Counter_16_N_146_16: 18 loads
+     Net n4783: 17 loads
+
+
+
+
+   Number of warnings:  18
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf(24): Semantic
+
+                                    Page 2
+
+
+
+
+Design:  gGMUX_BKeys                                   Date:  04/02/21  00:36:03
+
+Design Errors/Warnings (cont)
+-----------------------------
+     error in "IOBUF PORT "LPC_AD[0]" IO_TYPE=LVCMOS33 PULLMODE=NONE
+     SLEWRATE=SLOW ;": Port "LPC_AD[0]" does not exist in the design. This
+     preference has been disabled.
+WARNING - map: C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf(26): Semantic
+     error in "IOBUF PORT "LPC_AD[1]" IO_TYPE=LVCMOS33 PULLMODE=NONE
+     SLEWRATE=SLOW ;": Port "LPC_AD[1]" does not exist in the design. This
+     preference has been disabled.
+WARNING - map: C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf(28): Semantic
+     error in "IOBUF PORT "LPC_AD[2]" IO_TYPE=LVCMOS33 PULLMODE=NONE
+     SLEWRATE=SLOW ;": Port "LPC_AD[2]" does not exist in the design. This
+     preference has been disabled.
+WARNING - map: C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf(30): Semantic
+     error in "IOBUF PORT "LPC_AD[3]" IO_TYPE=LVCMOS33 PULLMODE=NONE
+     SLEWRATE=SLOW ;": Port "LPC_AD[3]" does not exist in the design. This
+     preference has been disabled.
+WARNING - map: C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf(33): Semantic
+     error in "IOBUF PORT "LPC_FRAME_L" IO_TYPE=LVCMOS33 ;": Port "LPC_FRAME_L"
+     does not exist in the design. This preference has been disabled.
+WARNING - map: C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf(36): Semantic
+     error in "IOBUF PORT "LPCPLUS_RESET_L" IO_TYPE=LVCMOS33 ;": Port
+     "LPCPLUS_RESET_L" does not exist in the design. This preference has been
+     disabled.
+WARNING - map: input pad net 'LPC_AD[3]' has no legal load.
+WARNING - map: input pad net 'LPC_AD[2]' has no legal load.
+WARNING - map: input pad net 'LPC_AD[1]' has no legal load.
+WARNING - map: input pad net 'LPC_AD[0]' has no legal load.
+WARNING - map: input pad net 'LPC_FRAME_L' has no legal load.
+WARNING - map: input pad net 'LPCPLUS_RESET_L' has no legal load.
+WARNING - map: IO buffer missing for top level port LPC_AD[3:0](3)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port LPC_AD[3:0](2)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port LPC_AD[3:0](1)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port LPC_AD[3:0](0)...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port LPC_FRAME_L...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port LPCPLUS_RESET_L...logic will
+     be discarded.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+------------+
+| IO Name             | Direction | Levelmode | IO         | FIXEDDELAY |
+|                     |           |  IO_TYPE  | Register   |            |
++---------------------+-----------+-----------+------------+------------+
+| LVDS_A_DATA[0]      | OUTPUT    | SSTL18D_II|            |            |
++---------------------+-----------+-----------+------------+------------+
+| LVDS_A_DATA[1]      | OUTPUT    | SSTL18D_II|            |            |
++---------------------+-----------+-----------+------------+------------+
+| LVDS_IG_A_DATA[2]   | INPUT     | SSTL18D_II|            |            |
++---------------------+-----------+-----------+------------+------------+
+| LVDS_DDC_SEL_EG     | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+
+                                    Page 3
+
+
+
+
+Design:  gGMUX_BKeys                                   Date:  04/02/21  00:36:03
+
+IO (PIO) Attributes (cont)
+--------------------------
+| LVDS_DDC_SEL_IG     | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| EG_RESET_L          | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| GPUVCORE_EN         | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| P1V0GPU_EN          | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| P1V5FB1V8GPU_R_EN   | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| P3V3GPU_EN          | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| LCD_BKLT_PWM        | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| LCD_PWR_EN          | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| LCD_BKLT_EN         | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| LVDS_B_CLK          | OUTPUT    | SSTL18D_II|            |            |
++---------------------+-----------+-----------+------------+------------+
+| LVDS_A_CLK          | OUTPUT    | SSTL18D_II|            |            |
++---------------------+-----------+-----------+------------+------------+
+| LVDS_B_DATA[0]      | OUTPUT    | SSTL18D_II|            |            |
++---------------------+-----------+-----------+------------+------------+
+| LVDS_B_DATA[1]      | OUTPUT    | SSTL18D_II|            |            |
++---------------------+-----------+-----------+------------+------------+
+| LVDS_B_DATA[2]      | OUTPUT    | SSTL18D_II|            |            |
++---------------------+-----------+-----------+------------+------------+
+| LVDS_A_DATA[2]      | OUTPUT    | SSTL18D_II|            |            |
++---------------------+-----------+-----------+------------+------------+
+| LVDS_IG_A_DATA[1]   | INPUT     | SSTL18D_II|            |            |
++---------------------+-----------+-----------+------------+------------+
+| LVDS_IG_A_DATA[0]   | INPUT     | SSTL18D_II|            |            |
++---------------------+-----------+-----------+------------+------------+
+| LVDS_IG_B_DATA[2]   | INPUT     | SSTL18D_II|            |            |
++---------------------+-----------+-----------+------------+------------+
+| LVDS_IG_B_DATA[1]   | INPUT     | SSTL18D_II|            |            |
++---------------------+-----------+-----------+------------+------------+
+| LVDS_IG_B_DATA[0]   | INPUT     | SSTL18D_II|            |            |
++---------------------+-----------+-----------+------------+------------+
+| LVDS_IG_A_CLK       | INPUT     | SSTL18D_II|            |            |
++---------------------+-----------+-----------+------------+------------+
+| LVDS_IG_BKL_ON      | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| LVDS_IG_PANEL_PWR   | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| LPC_CLK33M_GMUX     | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| GMUX_RESET_L        | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+
+Removed logic
+-------------
+
+Block GSR_INST undriven or does not drive anything - clipped.
+Signal PWM_Counter_402_add_4_17/CO undriven or does not drive anything -
+
+                                    Page 4
+
+
+
+
+Design:  gGMUX_BKeys                                   Date:  04/02/21  00:36:03
+
+Removed logic (cont)
+--------------------
+     clipped.
+Signal add_656_17/CO undriven or does not drive anything - clipped.
+Signal add_643_add_4_2/S1 undriven or does not drive anything - clipped.
+Signal add_643_add_4_2/S0 undriven or does not drive anything - clipped.
+Signal add_643_add_4_2/CI undriven or does not drive anything - clipped.
+Signal PWM_Counter_402_add_4_1/S0 undriven or does not drive anything - clipped.
+     
+Signal PWM_Counter_402_add_4_1/CI undriven or does not drive anything - clipped.
+     
+Signal add_643_add_4_4/S1 undriven or does not drive anything - clipped.
+Signal add_643_add_4_4/S0 undriven or does not drive anything - clipped.
+Signal add_643_add_4_6/S1 undriven or does not drive anything - clipped.
+Signal add_643_add_4_6/S0 undriven or does not drive anything - clipped.
+Signal add_116_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal add_116_add_4_1/CI undriven or does not drive anything - clipped.
+Signal add_643_add_4_8/S1 undriven or does not drive anything - clipped.
+Signal add_643_add_4_8/S0 undriven or does not drive anything - clipped.
+Signal Prescale_Counter_401_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal Prescale_Counter_401_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal add_643_add_4_10/S1 undriven or does not drive anything - clipped.
+Signal add_643_add_4_10/S0 undriven or does not drive anything - clipped.
+Signal add_643_add_4_12/S1 undriven or does not drive anything - clipped.
+Signal add_643_add_4_12/S0 undriven or does not drive anything - clipped.
+Signal add_643_add_4_14/S1 undriven or does not drive anything - clipped.
+Signal add_643_add_4_14/S0 undriven or does not drive anything - clipped.
+Signal add_643_add_4_16/S1 undriven or does not drive anything - clipped.
+Signal add_643_add_4_16/S0 undriven or does not drive anything - clipped.
+Signal add_643_add_4_18/S1 undriven or does not drive anything - clipped.
+Signal add_643_add_4_18/S0 undriven or does not drive anything - clipped.
+Signal add_116_add_4_11/CO undriven or does not drive anything - clipped.
+Signal add_656_1/S0 undriven or does not drive anything - clipped.
+Signal add_656_1/CI undriven or does not drive anything - clipped.
+Signal add_643_add_4_cout/S1 undriven or does not drive anything - clipped.
+Signal add_643_add_4_cout/CO undriven or does not drive anything - clipped.
+Signal Prescale_Counter_401_add_4_23/CO undriven or does not drive anything -
+     clipped.
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 61 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 5
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights
+     reserved.

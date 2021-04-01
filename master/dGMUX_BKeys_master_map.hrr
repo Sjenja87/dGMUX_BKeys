@@ -1,0 +1,10 @@
+---------------------------------------------------
+Report for cell gGMUX_BKeys
+   Instance path: gGMUX_BKeys
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     159.00        100.0
+                                  LUT4	     175.00        100.0
+                                 IOBUF	         29        100.0
+                                PFUREG	        113        100.0
+                                RIPPLE	         46        100.0
