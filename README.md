@@ -21,7 +21,7 @@ There is plenty of information on the web how to go about  getting the right JTA
 
 # Hardware Modification
 
-Keyboard signal is connected to the FPGA through the GMUX_RESET_L pin 57 of U9600. The R2887(820-2915 Board) must be removed and a wire from the R2887 pad pin 2 is soldered to the WS_KBD23(J5713-pin-6) keybord connecter pin or U5701 pin 48.
+Keyboard signal is connected to the FPGA through the GMUX_RESET_L pin 81 of U9600. The R2887(820-2915 Board) must be removed and a wire from the R2887 pad pin 2 is soldered to the WS_KBD23(J5713-pin-6) keybord connecter pin or U5701 pin 48.
 
 * PLT_RESET_L must be grounded when flashing, this can be achieved by grounding **R4283**(820-2915).
 
