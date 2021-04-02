@@ -2,7 +2,7 @@
  
 # Overview
 
-This HDL implementaion overwrites the configuration on the U9600 Lattice XP2-5E FGPA on the 820-2914 board to buffer the iGPU LVDS signals directly to the LCD. It also powers down the dGPU to conserve power. The F1 and F2 brightness control keys are connected directly to he Lattice XP2-5E FGPA and no additional software is needed to control the screen brightness. The brightness level do not follow the on-creen pop up level indicator as of yet. This project draws heavily on the previous work of [ayilm1](https://github.com/ayilm1/gMUXBypass) and [Romain](https://github.com/roddoart/gMUXBypass) Special thanks to both of you!  
+This HDL implementaion overwrites the configuration on the U9600 Lattice XP2-5E FGPA on the 820-2915 board to buffer the iGPU LVDS signals directly to the LCD. It also powers down the dGPU to conserve power. The F1 and F2 brightness control keys are connected directly to he Lattice XP2-5E FGPA and no additional software is needed to control the screen brightness. The brightness level do not follow the on-creen pop up level indicator as of yet. This project draws heavily on the previous work of [ayilm1](https://github.com/ayilm1/gMUXBypass) and [Romain](https://github.com/roddoart/gMUXBypass) Special thanks to both of you!  
 
 # Introduction
 Probing the keyboard push buttons let me to discover the key encodings of the F1 and F2 buttons. Shown below:
@@ -22,6 +22,8 @@ There is plenty of information on the web how to go about  getting the right JTA
 # Hardware Modification
 
 Keyboard signal is connected to the FPGA through the GMUX_RESET_L pin 57 of U9600. The R2887(820-2915 Board) must be removed and a wire from the R2887 pad pin 2 is soldered to the WS_KBD23(J5713-pin-6) keybord connecter pin or U5701 pin 48.
+
+* PLT_RESET_L must be grounded when flashing, this can be achieved by grounding **R4283**(820-2915).
 
 # Disclaimer
  I am not responsible for any damage this causes. This has been tested on an 820-2915 successfully, but results may vary. The FPGA's original configuration cannot be backed up. This means this process is irreversable and once reprogrammed, the original configuration programmed by Apple will be irrecoverably lost.
