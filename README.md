@@ -2,7 +2,7 @@
  
 # Overview
 
-This HDL implementaion overwrites the configuration on the U9600 Lattice XP2-5E FGPA on the 820-2915 board to buffer the iGPU LVDS signals directly to the LCD. It also powers down the dGPU to conserve power. The F1 and F2 brightness control keys are connected directly to he Lattice XP2-5E FGPA and no additional software is needed to control the screen brightness. The brightness level do not follow the on-creen pop up level indicator as of yet. This project draws heavily on the previous work of [ayilm1](https://github.com/ayilm1/gMUXBypass) and [Romain](https://github.com/roddoart/gMUXBypass) Special thanks to both of you!  
+This HDL implementaion overwrites the configuration on the U9600 Lattice XP2-5E FGPA on the 820-2915 board to buffer the iGPU LVDS signals directly to the LCD. It also powers down the dGPU to conserve power. The F1 and F2 brightness control keys are connected directly to he Lattice XP2-5E FGPA and no additional software is needed to control the screen brightness. The brightness level do not follow the on-creen pop-up level indicator as of yet. This project draws heavily on the previous work of [ayilm1](https://github.com/ayilm1/gMUXBypass) and [Romain](https://github.com/roddoart/gMUXBypass) Special thanks to both of you!  
 
 # Introduction
 Probing the keyboard push buttons let me to discover the key encodings of the F1 and F2 buttons. Shown below:
