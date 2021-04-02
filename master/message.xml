@@ -1,121 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BaliMessageLog>
-    <Task name="Map">
-        <Message>
-            <ID>1100644</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(24): Semantic error in &quot;IOBUF PORT &quot;LPC_AD[0]&quot; IO_TYPE=LVCMOS33 PULLMODE=NONE SLEWRATE=SLOW ;&quot;: </Dynamic>
-            <Dynamic>LPC_AD[0]</Dynamic>
-            <Navigation>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf</Navigation>
-            <Navigation>24</Navigation>
-        </Message>
-        <Message>
-            <ID>1100644</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(26): Semantic error in &quot;IOBUF PORT &quot;LPC_AD[1]&quot; IO_TYPE=LVCMOS33 PULLMODE=NONE SLEWRATE=SLOW ;&quot;: </Dynamic>
-            <Dynamic>LPC_AD[1]</Dynamic>
-            <Navigation>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf</Navigation>
-            <Navigation>26</Navigation>
-        </Message>
-        <Message>
-            <ID>1100644</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(28): Semantic error in &quot;IOBUF PORT &quot;LPC_AD[2]&quot; IO_TYPE=LVCMOS33 PULLMODE=NONE SLEWRATE=SLOW ;&quot;: </Dynamic>
-            <Dynamic>LPC_AD[2]</Dynamic>
-            <Navigation>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf</Navigation>
-            <Navigation>28</Navigation>
-        </Message>
-        <Message>
-            <ID>1100644</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(30): Semantic error in &quot;IOBUF PORT &quot;LPC_AD[3]&quot; IO_TYPE=LVCMOS33 PULLMODE=NONE SLEWRATE=SLOW ;&quot;: </Dynamic>
-            <Dynamic>LPC_AD[3]</Dynamic>
-            <Navigation>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf</Navigation>
-            <Navigation>30</Navigation>
-        </Message>
-        <Message>
-            <ID>1100644</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(33): Semantic error in &quot;IOBUF PORT &quot;LPC_FRAME_L&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
-            <Dynamic>LPC_FRAME_L</Dynamic>
-            <Navigation>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf</Navigation>
-            <Navigation>33</Navigation>
-        </Message>
-        <Message>
-            <ID>1100644</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(36): Semantic error in &quot;IOBUF PORT &quot;LPCPLUS_RESET_L&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
-            <Dynamic>LPCPLUS_RESET_L</Dynamic>
-            <Navigation>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf</Navigation>
-            <Navigation>36</Navigation>
-        </Message>
-        <Message>
-            <ID>1166064</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>input</Dynamic>
-            <Dynamic>LPC_AD[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>1166064</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>input</Dynamic>
-            <Dynamic>LPC_AD[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>1166064</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>input</Dynamic>
-            <Dynamic>LPC_AD[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>1166064</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>input</Dynamic>
-            <Dynamic>LPC_AD[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>1166064</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>input</Dynamic>
-            <Dynamic>LPC_FRAME_L</Dynamic>
-        </Message>
-        <Message>
-            <ID>1166064</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>input</Dynamic>
-            <Dynamic>LPCPLUS_RESET_L</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>LPC_AD[3:0](3)</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>LPC_AD[3:0](2)</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>LPC_AD[3:0](1)</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>LPC_AD[3:0](0)</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>LPC_FRAME_L</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>LPCPLUS_RESET_L</Dynamic>
-        </Message>
-    </Task>
     <Task name="Lattice_Synthesis">
         <Message>
             <ID>35002000</ID>
@@ -136,41 +20,26 @@
         <Message>
             <ID>35901220</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(106): </Dynamic>
-            <Dynamic>Brightness_Up</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
-            <Navigation>106</Navigation>
-        </Message>
-        <Message>
-            <ID>35901220</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(108): </Dynamic>
-            <Dynamic>Brightness_Down</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
-            <Navigation>108</Navigation>
-        </Message>
-        <Message>
-            <ID>35901220</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(112): </Dynamic>
-            <Dynamic>test</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
-            <Navigation>112</Navigation>
-        </Message>
-        <Message>
-            <ID>35901220</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(223): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(209): </Dynamic>
             <Dynamic>Periode</Dynamic>
             <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
-            <Navigation>223</Navigation>
+            <Navigation>209</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(118): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
+            <Navigation>118</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
             <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(125): </Dynamic>
             <Dynamic>32</Dynamic>
-            <Dynamic>4</Dynamic>
+            <Dynamic>11</Dynamic>
             <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>125</Navigation>
         </Message>
@@ -179,81 +48,72 @@
             <Severity>Warning</Severity>
             <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(132): </Dynamic>
             <Dynamic>32</Dynamic>
-            <Dynamic>11</Dynamic>
+            <Dynamic>17</Dynamic>
             <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>132</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(139): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(146): </Dynamic>
             <Dynamic>32</Dynamic>
-            <Dynamic>17</Dynamic>
+            <Dynamic>6</Dynamic>
             <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
-            <Navigation>139</Navigation>
+            <Navigation>146</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(166): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(170): </Dynamic>
             <Dynamic>32</Dynamic>
-            <Dynamic>6</Dynamic>
+            <Dynamic>23</Dynamic>
             <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
-            <Navigation>166</Navigation>
+            <Navigation>170</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
             <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(184): </Dynamic>
             <Dynamic>32</Dynamic>
-            <Dynamic>23</Dynamic>
+            <Dynamic>5</Dynamic>
             <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>184</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(198): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(186): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>5</Dynamic>
             <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
-            <Navigation>198</Navigation>
+            <Navigation>186</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(200): </Dynamic>
-            <Dynamic>32</Dynamic>
-            <Dynamic>5</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
-            <Navigation>200</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(218): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(204): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>1</Dynamic>
             <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
-            <Navigation>218</Navigation>
+            <Navigation>204</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(261): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(247): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>17</Dynamic>
             <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
-            <Navigation>261</Navigation>
+            <Navigation>247</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(266): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(252): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>1</Dynamic>
             <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
-            <Navigation>266</Navigation>
+            <Navigation>252</Navigation>
         </Message>
         <Message>
             <ID>35001771</ID>
@@ -363,16 +223,6 @@
         <Message>
             <ID>35002005</ID>
             <Severity>Warning</Severity>
-            <Dynamic>LPC_FRAME_L</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002005</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>LPCPLUS_RESET_L</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002005</ID>
-            <Severity>Warning</Severity>
             <Dynamic>LVDS_IG_A_DATA[2]</Dynamic>
         </Message>
         <Message>
@@ -466,50 +316,20 @@
             <Dynamic>LCD_PWR_EN</Dynamic>
         </Message>
         <Message>
-            <ID>35002005</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>LPC_AD[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002005</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>LPC_AD[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002005</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>LPC_AD[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002005</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>LPC_AD[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002005</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>LPC_FRAME_L</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002005</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>LPCPLUS_RESET_L</Dynamic>
-        </Message>
-        <Message>
             <ID>35935013</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(139): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(132): </Dynamic>
             <Dynamic>add_117_e1_i0_i16</Dynamic>
             <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
-            <Navigation>139</Navigation>
+            <Navigation>132</Navigation>
         </Message>
         <Message>
             <ID>35935013</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(252): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(238): </Dynamic>
             <Dynamic>Duty_Cycle_i17</Dynamic>
             <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
-            <Navigation>252</Navigation>
+            <Navigation>238</Navigation>
         </Message>
         <Message>
             <ID>35001779</ID>
@@ -545,89 +365,6 @@
             <ID>35001611</ID>
             <Severity>Warning</Severity>
         </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>LPC_AD[3]</Dynamic>
-            <Navigation>LPC_AD[3]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166064</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>input</Dynamic>
-            <Dynamic>LPC_AD[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>LPC_AD[2]</Dynamic>
-            <Navigation>LPC_AD[2]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166064</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>input</Dynamic>
-            <Dynamic>LPC_AD[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>LPC_AD[1]</Dynamic>
-            <Navigation>LPC_AD[1]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166064</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>input</Dynamic>
-            <Dynamic>LPC_AD[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>LPC_AD[0]</Dynamic>
-            <Navigation>LPC_AD[0]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166064</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>input</Dynamic>
-            <Dynamic>LPC_AD[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>LPC_FRAME_L</Dynamic>
-            <Navigation>LPC_FRAME_L</Navigation>
-        </Message>
-        <Message>
-            <ID>1166064</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>input</Dynamic>
-            <Dynamic>LPC_FRAME_L</Dynamic>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>LPCPLUS_RESET_L</Dynamic>
-            <Navigation>LPCPLUS_RESET_L</Navigation>
-        </Message>
-        <Message>
-            <ID>1166064</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>input</Dynamic>
-            <Dynamic>LPCPLUS_RESET_L</Dynamic>
-        </Message>
-        <Message>
-            <ID>1163101</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>12</Dynamic>
-        </Message>
     </Task>
     <Task name="PAR">
         <Message>
@@ -643,15 +380,13 @@
             <ID>66011008</ID>
             <Severity>Warning</Severity>
             <Dynamic>
-   Signal=Frame_Clock loads=1 clock_loads=1
-   Signal=Key_Clock loads=31 clock_loads=3</Dynamic>
+   Signal=Key_Clock loads=7 clock_loads=3</Dynamic>
         </Message>
         <Message>
             <ID>66011008</ID>
             <Severity>Warning</Severity>
             <Dynamic>
-   Signal=Frame_Clock loads=1 clock_loads=1
-   Signal=Key_Clock loads=31 clock_loads=3</Dynamic>
+   Signal=Key_Clock loads=7 clock_loads=3</Dynamic>
         </Message>
     </Task>
 </BaliMessageLog>

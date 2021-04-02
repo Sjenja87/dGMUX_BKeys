@@ -23,19 +23,19 @@ Target Vendor:  LATTICE
 Target Device:  LFXP2-5ECSBGA132
 Target Performance:   5
 Mapper:  mg5a00,  version:  Diamond (64-bit) 3.12.0.240.2
-Mapped on:  04/02/21  02:37:12
+Mapped on:  04/02/21  23:37:39
 
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
-   Number of registers:    113 out of  3822 (3%)
-      PFU registers:          113 out of  3564 (3%)
+   Number of registers:    118 out of  3822 (3%)
+      PFU registers:          118 out of  3564 (3%)
       PIO registers:            0 out of   258 (0%)
-   Number of SLICEs:       159 out of  2376 (7%)
-      SLICEs as Logic/ROM:    159 out of  2376 (7%)
+   Number of SLICEs:       153 out of  2376 (6%)
+      SLICEs as Logic/ROM:    153 out of  2376 (6%)
       SLICEs as RAM:            0 out of   405 (0%)
       SLICEs as Carry:         46 out of  2376 (2%)
-   Number of LUT4s:        267 out of  4752 (6%)
-      Number used as logic LUTs:        175
+   Number of LUT4s:        291 out of  4752 (6%)
+      Number used as logic LUTs:        199
       Number used as distributed RAM:     0
       Number used as ripple logic:       92
       Number used as shift registers:     0
@@ -72,112 +72,50 @@ Mapped on:  04/02/21  02:37:12
    MULT9X9ADDSUBSUMB   0
    --------------------------------
    Number of Used DSP Sites:  0 out of 24 (0 %)
-   Number of clocks:  3
-     Net LPC_CLK33M_GMUX_c: 70 loads, 70 rising, 0 falling (Driver: PIO
+   Number of clocks:  2
+     Net LPC_CLK33M_GMUX_c: 67 loads, 67 rising, 0 falling (Driver: PIO
      LPC_CLK33M_GMUX )
-     Net Frame_Clock: 1 loads, 1 rising, 0 falling (Driver: Frame_Clock_101 )
      Net Key_Clock: 3 loads, 3 rising, 0 falling (Driver: Key_Clock_105 )
-   Number of Clock Enables:  17
-     Net LPC_CLK33M_GMUX_c_enable_1: 1 loads, 1 LSLICEs
-     Net LPC_CLK33M_GMUX_c_enable_2: 1 loads, 1 LSLICEs
-     Net LPC_CLK33M_GMUX_c_enable_21: 6 loads, 6 LSLICEs
-     Net LPC_CLK33M_GMUX_c_enable_10: 5 loads, 5 LSLICEs
-     Net LPC_CLK33M_GMUX_c_enable_32: 2 loads, 2 LSLICEs
-     Net LPC_CLK33M_GMUX_c_enable_30: 1 loads, 1 LSLICEs
-     Net LPC_CLK33M_GMUX_c_enable_24: 1 loads, 1 LSLICEs
-     Net LPC_CLK33M_GMUX_c_enable_33: 1 loads, 1 LSLICEs
+   Number of Clock Enables:  6
+     Net LPC_CLK33M_GMUX_c_enable_17: 2 loads, 2 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_14: 3 loads, 3 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_9: 5 loads, 5 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_18: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_30: 6 loads, 6 LSLICEs
      Net LPC_CLK33M_GMUX_c_enable_29: 1 loads, 1 LSLICEs
-     Net LPC_CLK33M_GMUX_c_enable_28: 1 loads, 1 LSLICEs
-     Net LPC_CLK33M_GMUX_c_enable_23: 1 loads, 1 LSLICEs
-     Net LPC_CLK33M_GMUX_c_enable_25: 1 loads, 1 LSLICEs
-     Net LPC_CLK33M_GMUX_c_enable_26: 1 loads, 1 LSLICEs
-     Net LPC_CLK33M_GMUX_c_enable_27: 1 loads, 1 LSLICEs
-     Net LPC_CLK33M_GMUX_c_enable_36: 1 loads, 1 LSLICEs
-     Net LPC_CLK33M_GMUX_c_enable_35: 1 loads, 1 LSLICEs
-     Net LPC_CLK33M_GMUX_c_enable_34: 1 loads, 1 LSLICEs
-   Number of LSRs:  5
-     Net Frame_Counter_16_N_146_16: 16 loads, 16 LSLICEs
-     Net Delay_Counter_10__N_143: 6 loads, 6 LSLICEs
+   Number of LSRs:  6
+     Net LPC_CLK33M_GMUX_c_enable_14: 9 loads, 9 LSLICEs
+     Net n2029: 5 loads, 5 LSLICEs
      Net Prescale_Counter_22: 12 loads, 12 LSLICEs
-     Net n4783: 7 loads, 7 LSLICEs
-     Net n2647: 9 loads, 9 LSLICEs
+     Net n5373: 7 loads, 7 LSLICEs
+     Net n5381: 6 loads, 6 LSLICEs
+     Net n2654: 9 loads, 9 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
      Net VCC_net: 60 loads
-     Net Brightness_Level_2: 41 loads
-     Net Brightness_Level_4: 39 loads
-     Net Brightness_Level_1: 31 loads
-     Net Brightness_Level_3: 29 loads
-     Net Brightness_Trigger_dly: 27 loads
-     Net Brightness_Level_0: 25 loads
-     Net GMUX_RESET_L_c: 19 loads
-     Net Frame_Counter_16_N_146_16: 18 loads
-     Net n4783: 17 loads
+     Net Brightness_Level_3: 42 loads
+     Net Brightness_Level_2: 40 loads
+     Net Brightness_Level_1: 36 loads
+     Net n5369: 25 loads
+     Net GMUX_RESET_L_c: 22 loads
+     Net Brightness_Level_4: 21 loads
+     Net Brightness_Level_0: 19 loads
+     Net n5373: 19 loads
+     Net n1854: 16 loads
 
 
 
 
-   Number of warnings:  18
+   Number of warnings:  0
    Number of errors:    0
      
 
 
 
 
-
-
-
-
 <A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
 
-WARNING - map:
-     C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(24):
-     Semantic error in "IOBUF PORT "LPC_AD[0]" IO_TYPE=LVCMOS33 PULLMODE=NONE
-     SLEWRATE=SLOW ;": Port "LPC_AD[0]" does not exist in the design. This
-     preference has been disabled.
-WARNING - map:
-     C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(26):
-     Semantic error in "IOBUF PORT "LPC_AD[1]" IO_TYPE=LVCMOS33 PULLMODE=NONE
-     SLEWRATE=SLOW ;": Port "LPC_AD[1]" does not exist in the design. This
-     preference has been disabled.
-WARNING - map:
-     C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(28):
-     Semantic error in "IOBUF PORT "LPC_AD[2]" IO_TYPE=LVCMOS33 PULLMODE=NONE
-     SLEWRATE=SLOW ;": Port "LPC_AD[2]" does not exist in the design. This
-     preference has been disabled.
-WARNING - map:
-     C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(30):
-     Semantic error in "IOBUF PORT "LPC_AD[3]" IO_TYPE=LVCMOS33 PULLMODE=NONE
-     SLEWRATE=SLOW ;": Port "LPC_AD[3]" does not exist in the design. This
-     preference has been disabled.
-WARNING - map:
-     C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(33):
-     Semantic error in "IOBUF PORT "LPC_FRAME_L" IO_TYPE=LVCMOS33 ;": Port
-     "LPC_FRAME_L" does not exist in the design. This preference has been
-     disabled.
-WARNING - map:
-     C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(36):
-     Semantic error in "IOBUF PORT "LPCPLUS_RESET_L" IO_TYPE=LVCMOS33 ;": Port
-     "LPCPLUS_RESET_L" does not exist in the design. This preference has been
-     disabled.
-WARNING - map: input pad net 'LPC_AD[3]' has no legal load.
-WARNING - map: input pad net 'LPC_AD[2]' has no legal load.
-WARNING - map: input pad net 'LPC_AD[1]' has no legal load.
-WARNING - map: input pad net 'LPC_AD[0]' has no legal load.
-WARNING - map: input pad net 'LPC_FRAME_L' has no legal load.
-WARNING - map: input pad net 'LPCPLUS_RESET_L' has no legal load.
-WARNING - map: IO buffer missing for top level port LPC_AD[3:0](3)...logic will
-     be discarded.
-WARNING - map: IO buffer missing for top level port LPC_AD[3:0](2)...logic will
-     be discarded.
-WARNING - map: IO buffer missing for top level port LPC_AD[3:0](1)...logic will
-     be discarded.
-WARNING - map: IO buffer missing for top level port LPC_AD[3:0](0)...logic will
-     be discarded.
-WARNING - map: IO buffer missing for top level port LPC_FRAME_L...logic will be
-     discarded.
-WARNING - map: IO buffer missing for top level port LPCPLUS_RESET_L...logic will
-     be discarded.
+   No errors or warnings present.
 
 
 
@@ -186,15 +124,11 @@ WARNING - map: IO buffer missing for top level port LPCPLUS_RESET_L...logic will
 +---------------------+-----------+-----------+------------+------------+
 | IO Name             | Direction | Levelmode | IO         | FIXEDDELAY |
 |                     |           |  IO_TYPE  | Register   |            |
-
 +---------------------+-----------+-----------+------------+------------+
 | LVDS_A_DATA[0]      | OUTPUT    | SSTL18D_II|            |            |
 +---------------------+-----------+-----------+------------+------------+
+
 | LVDS_A_DATA[1]      | OUTPUT    | SSTL18D_II|            |            |
-+---------------------+-----------+-----------+------------+------------+
-| LVDS_IG_A_DATA[2]   | INPUT     | SSTL18D_II|            |            |
-+---------------------+-----------+-----------+------------+------------+
-| LVDS_DDC_SEL_EG     | OUTPUT    | LVCMOS33  |            |            |
 +---------------------+-----------+-----------+------------+------------+
 | LVDS_DDC_SEL_IG     | OUTPUT    | LVCMOS33  |            |            |
 +---------------------+-----------+-----------+------------+------------+
@@ -226,6 +160,10 @@ WARNING - map: IO buffer missing for top level port LPCPLUS_RESET_L...logic will
 +---------------------+-----------+-----------+------------+------------+
 | LVDS_A_DATA[2]      | OUTPUT    | SSTL18D_II|            |            |
 +---------------------+-----------+-----------+------------+------------+
+| LVDS_DDC_SEL_EG     | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| LVDS_IG_A_DATA[2]   | INPUT     | SSTL18D_II|            |            |
++---------------------+-----------+-----------+------------+------------+
 | LVDS_IG_A_DATA[1]   | INPUT     | SSTL18D_II|            |            |
 +---------------------+-----------+-----------+------------+------------+
 | LVDS_IG_A_DATA[0]   | INPUT     | SSTL18D_II|            |            |
@@ -243,55 +181,55 @@ WARNING - map: IO buffer missing for top level port LPCPLUS_RESET_L...logic will
 | LVDS_IG_PANEL_PWR   | INPUT     | LVCMOS33  |            |            |
 +---------------------+-----------+-----------+------------+------------+
 | LPC_CLK33M_GMUX     | INPUT     | LVCMOS33  |            |            |
-
 +---------------------+-----------+-----------+------------+------------+
 | GMUX_RESET_L        | INPUT     | LVCMOS33  |            |            |
 +---------------------+-----------+-----------+------------+------------+
 
 
 
+
 <A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
 
 Block GSR_INST undriven or does not drive anything - clipped.
-Signal PWM_Counter_402_add_4_17/CO undriven or does not drive anything -
+Signal add_649_add_4_4/S1 undriven or does not drive anything - clipped.
+Signal add_649_add_4_4/S0 undriven or does not drive anything - clipped.
+Signal add_649_add_4_6/S1 undriven or does not drive anything - clipped.
+Signal add_649_add_4_6/S0 undriven or does not drive anything - clipped.
+Signal add_649_add_4_8/S1 undriven or does not drive anything - clipped.
+Signal add_649_add_4_8/S0 undriven or does not drive anything - clipped.
+Signal add_649_add_4_10/S1 undriven or does not drive anything - clipped.
+Signal add_649_add_4_10/S0 undriven or does not drive anything - clipped.
+Signal Prescale_Counter_407_add_4_23/CO undriven or does not drive anything -
      clipped.
-Signal add_656_17/CO undriven or does not drive anything - clipped.
-Signal add_643_add_4_2/S1 undriven or does not drive anything - clipped.
-Signal add_643_add_4_2/S0 undriven or does not drive anything - clipped.
-Signal add_643_add_4_2/CI undriven or does not drive anything - clipped.
-Signal PWM_Counter_402_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal add_116_add_4_11/CO undriven or does not drive anything - clipped.
+Signal add_649_add_4_12/S1 undriven or does not drive anything - clipped.
+Signal add_649_add_4_12/S0 undriven or does not drive anything - clipped.
+Signal add_661_1/S0 undriven or does not drive anything - clipped.
+Signal add_661_1/CI undriven or does not drive anything - clipped.
+Signal add_649_add_4_14/S1 undriven or does not drive anything - clipped.
+Signal add_649_add_4_14/S0 undriven or does not drive anything - clipped.
+Signal add_649_add_4_16/S1 undriven or does not drive anything - clipped.
+Signal add_649_add_4_16/S0 undriven or does not drive anything - clipped.
+Signal PWM_Counter_408_add_4_1/S0 undriven or does not drive anything - clipped.
      
-Signal PWM_Counter_402_add_4_1/CI undriven or does not drive anything - clipped.
+Signal PWM_Counter_408_add_4_1/CI undriven or does not drive anything - clipped.
      
-Signal add_643_add_4_4/S1 undriven or does not drive anything - clipped.
-Signal add_643_add_4_4/S0 undriven or does not drive anything - clipped.
-Signal add_643_add_4_6/S1 undriven or does not drive anything - clipped.
-Signal add_643_add_4_6/S0 undriven or does not drive anything - clipped.
+Signal add_661_17/CO undriven or does not drive anything - clipped.
+Signal add_649_add_4_18/S1 undriven or does not drive anything - clipped.
+Signal add_649_add_4_18/S0 undriven or does not drive anything - clipped.
+Signal add_649_add_4_cout/S1 undriven or does not drive anything - clipped.
+Signal add_649_add_4_cout/CO undriven or does not drive anything - clipped.
 Signal add_116_add_4_1/S0 undriven or does not drive anything - clipped.
 Signal add_116_add_4_1/CI undriven or does not drive anything - clipped.
-Signal add_643_add_4_8/S1 undriven or does not drive anything - clipped.
-Signal add_643_add_4_8/S0 undriven or does not drive anything - clipped.
-Signal Prescale_Counter_401_add_4_1/S0 undriven or does not drive anything -
+Signal Prescale_Counter_407_add_4_1/S0 undriven or does not drive anything -
      clipped.
-Signal Prescale_Counter_401_add_4_1/CI undriven or does not drive anything -
+Signal Prescale_Counter_407_add_4_1/CI undriven or does not drive anything -
      clipped.
-Signal add_643_add_4_10/S1 undriven or does not drive anything - clipped.
-Signal add_643_add_4_10/S0 undriven or does not drive anything - clipped.
-Signal add_643_add_4_12/S1 undriven or does not drive anything - clipped.
-Signal add_643_add_4_12/S0 undriven or does not drive anything - clipped.
-Signal add_643_add_4_14/S1 undriven or does not drive anything - clipped.
-Signal add_643_add_4_14/S0 undriven or does not drive anything - clipped.
-Signal add_643_add_4_16/S1 undriven or does not drive anything - clipped.
-Signal add_643_add_4_16/S0 undriven or does not drive anything - clipped.
-Signal add_643_add_4_18/S1 undriven or does not drive anything - clipped.
-Signal add_643_add_4_18/S0 undriven or does not drive anything - clipped.
-Signal add_116_add_4_11/CO undriven or does not drive anything - clipped.
-Signal add_656_1/S0 undriven or does not drive anything - clipped.
-Signal add_656_1/CI undriven or does not drive anything - clipped.
-Signal add_643_add_4_cout/S1 undriven or does not drive anything - clipped.
-Signal add_643_add_4_cout/CO undriven or does not drive anything - clipped.
-Signal Prescale_Counter_401_add_4_23/CO undriven or does not drive anything -
+Signal PWM_Counter_408_add_4_17/CO undriven or does not drive anything -
      clipped.
+Signal add_649_add_4_2/S1 undriven or does not drive anything - clipped.
+Signal add_649_add_4_2/S0 undriven or does not drive anything - clipped.
+Signal add_649_add_4_2/CI undriven or does not drive anything - clipped.
 
 
 
@@ -302,6 +240,11 @@ Signal Prescale_Counter_401_add_4_23/CO undriven or does not drive anything -
    Total REAL Time: 0 secs  
    Peak Memory Usage: 60 MB
         
+
+
+
+
+
 
 
 

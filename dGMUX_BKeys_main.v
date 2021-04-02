@@ -36,19 +36,13 @@ module gGMUX_BKeys (
 	output	LVDS_DDC_SEL_EG ,
 
 	/////////////////
-	/// Modifications by Yevhen87 and Romain to implement PWM generation and key press ///
+	/// Modifications by Sjenja87 and Romain to implement PWM generation and key press ///
 	// Clock input
 	input  LPC_CLK33M_GMUX ,
 	
-
 	// Keyboard Brightness Control Input
-	input  GMUX_RESET_L,
+	input  GMUX_RESET_L
 	
-	/// LPC IO PORT
-	inout	[3:0]	LPC_AD ,
-	input	LPC_FRAME_L,
-	input	LPCPLUS_RESET_L
-	/////////////////
 );
 
 	assign LVDS_A_DATA[2:0] = LVDS_IG_A_DATA[2:0];
@@ -74,7 +68,7 @@ module gGMUX_BKeys (
 	assign LVDS_DDC_SEL_IG		= 1;
 	assign LVDS_DDC_SEL_EG		= 0;
 	
-//////////////////// Modifications by Yevhen87 and Romain to implement the keyboard brightness buttons.
+//////////////////// Modifications by Sjenja87 and Romain to implement the keyboard brightness buttons.
 		
 	wire Rising_Edge_Event;//Rising edge event trigger  
 	
@@ -93,6 +87,8 @@ module gGMUX_BKeys (
 	
 	localparam Delay = 'h528; // 40us
 	
+	localparam N = 5;
+	
 	reg[10:0] Delay_Counter;
 	
 	reg[13:0] Decoded_Frame = 'h000;//13 bit frame from keypress 
@@ -101,17 +97,15 @@ module gGMUX_BKeys (
 	
 	reg[16:0] Frame_Counter = 0;
 	
-	localparam Frame_Time = 'h10000; //1ms
+	localparam Frame_Time = 'h10000; //2ms
 	
-	reg[13:0] Brightness_Up = 'h1FFD;
+	localparam Brightness_Up = 'h1FFD;
 	
-	reg[13:0] Brightness_Down = 'h1FFE;
+	localparam Brightness_Down = 'h1FFE;
 	
-	reg Frame_Clock= 1'b0;
+	reg[1:0] Last_Key_Press = 0;
 	
-	reg test = 0;
-	
-	assign GMUX_PL6A = test;
+	reg[5:0] N_Frames_Counter = 0;
 	
 	always @(posedge LPC_CLK33M_GMUX)
 	begin
@@ -120,7 +114,6 @@ module gGMUX_BKeys (
 		end else if(Delay_Counter <= Delay-1) begin
        			    if(Delay_Counter == Delay-1) begin
 						Decoded_Frame[Bit_Number] = GMUX_RESET_L;
-						
 						if(Bit_Number < 13) begin
 							Bit_Number= Bit_Number + 1;
 						end
@@ -139,36 +132,29 @@ module gGMUX_BKeys (
 			Frame_Counter = Frame_Counter + 1;
 		end
 		
-		Frame_Clock <= Frame_Counter[16];
-		
 		if(Frame_Counter >= Frame_Time) begin
+			
+			if(Decoded_Frame == Brightness_Up) begin
+				Last_Key_Press[0] = 1;	
+				N_Frames_Counter = 0;	
+
+			end else if (Decoded_Frame == 	Brightness_Down) begin
+				Last_Key_Press[1] = 1;
+				N_Frames_Counter = 0;
+
+			end	else begin	
+				N_Frames_Counter = N_Frames_Counter + 1;
+			end
+			
+			if(N_Frames_Counter >= N && Last_Key_Press > 0 ) begin
+				Last_Key_Press = 0; 
+				N_Frames_Counter = 0;		
+			end
+
 			Frame_Counter = 0;
 			Bit_Number = 0;
 			Decoded_Frame = 0;		
 		end		
-	end
-	
-	reg[1:0] Last_Key_Press = 0;
-	
-	reg[5:0] Ten_Frames_Counter = 0;
-	
-	always @(posedge Frame_Clock)
-	begin
-		if(Decoded_Frame == Brightness_Up) begin
-			Last_Key_Press[0] = 1;	
-			Ten_Frames_Counter = 0;	
-		end else if (Decoded_Frame == 	Brightness_Down) begin
-			Last_Key_Press[1] = 1;
-			Ten_Frames_Counter = 0;
-		end	else begin	
-			Last_Key_Press = 0;
-		end
-		Ten_Frames_Counter = Ten_Frames_Counter + 1;
-		
-		if(Ten_Frames_Counter >= 10 && Last_Key_Press > 0 ) begin
-			Last_Key_Press = 0; 
-			Ten_Frames_Counter = 0;		
-		end
 	end
 
 	

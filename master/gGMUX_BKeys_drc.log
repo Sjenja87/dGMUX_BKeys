@@ -7,22 +7,10 @@ Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
 
 Running DRC...
 
-WARNING - synthesis: logical net 'LPC_AD[3]' has no load.
-WARNING - synthesis: input pad net 'LPC_AD[3]' has no legal load.
-WARNING - synthesis: logical net 'LPC_AD[2]' has no load.
-WARNING - synthesis: input pad net 'LPC_AD[2]' has no legal load.
-WARNING - synthesis: logical net 'LPC_AD[1]' has no load.
-WARNING - synthesis: input pad net 'LPC_AD[1]' has no legal load.
-WARNING - synthesis: logical net 'LPC_AD[0]' has no load.
-WARNING - synthesis: input pad net 'LPC_AD[0]' has no legal load.
-WARNING - synthesis: logical net 'LPC_FRAME_L' has no load.
-WARNING - synthesis: input pad net 'LPC_FRAME_L' has no legal load.
-WARNING - synthesis: logical net 'LPCPLUS_RESET_L' has no load.
-WARNING - synthesis: input pad net 'LPCPLUS_RESET_L' has no legal load.
-WARNING - synthesis: DRC complete with 12 warnings.
+DRC complete with no errors or warnings
 
 Design Results:
-    389 blocks expanded
+    415 blocks expanded
 completed the first expansion
 All blocks are expanded and NGD expansion is successful.
 Writing NGD file dGMUX_BKeys_master.ngd.
