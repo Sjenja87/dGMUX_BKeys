@@ -23,7 +23,7 @@ There is plenty of information on the web how to go about  getting the right JTA
 
 Keyboard signal is connected to the FPGA through the GMUX_RESET_L pin 81 of U9600. The R2887(820-2915 Board) must be removed and a wire from the R2887 pad pin 2 is soldered to the WS_KBD23(J5713-pin-6) keybord connecter pin or U5701 pin 48.
 
-* PLT_RESET_L must be grounded when flashing, this can be achieved by grounding **R4283**(820-2915).
+* PLT_RESET_L must be grounded when flashing, this can be achieved by grounding **R2887 pin 1**(820-2915).
 
 # Disclaimer
  I am not responsible for any damage this causes. This has been tested on an 820-2915 successfully, but results may vary. The FPGA's original configuration cannot be backed up. This means this process is irreversable and once reprogrammed, the original configuration programmed by Apple will be irrecoverably lost.
