@@ -13,7 +13,7 @@ F2 Trace shown in **Yellow**.
 ![F1 key encoding](https://github.com/Sjenja87/dGMUX_BKeys/blob/main/Down-Trace.PNG?raw=true)
 
 Knowing this the verilog code simply samples the Key presses and decodes the bit 13 bit value, the bits are sampled at the positive and negative edge of the **Blue** trace. 
-To control for debounce keys presses are sampled at 8 Hz and this is very close to the normal operation of the Brightness control in a non modified macbook. 
+To control for debounce keys presses are sampled as 5 at a time and the brightness level changes are clocked at 8 Hz, this is very close to the normal operation of the Brightness control in a non modified macbook. 
 As of yet there is no way of syncing the on-screen pop up brightness level indicator so this is not accurate and should be disregarded. But more modifications may enable this functionality later.
 
 # Flashing the XP2-5E
