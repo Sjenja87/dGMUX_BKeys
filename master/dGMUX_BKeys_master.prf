@@ -1,5 +1,5 @@
 SCHEMATIC START ;
-# map:  version Diamond (64-bit) 3.12.0.240.2 -- WARNING: Map write only section -- Fri Apr 02 00:36:04 2021
+# map:  version Diamond (64-bit) 3.12.0.240.2 -- WARNING: Map write only section -- Fri Apr 02 02:37:12 2021
 
 SYSCONFIG DONE_OD=ON DONE_EX=OFF CONFIG_SECURE=OFF WAKE_UP=21 WAKE_ON_LOCK=OFF INBUF=ON MASTER_SPI_PORT=DISABLE SLAVE_SPI_PORT=DISABLE MY_ASSP=OFF ONE_TIME_PROGRAM=OFF ;
 LOCATE COMP "LVDS_A_DATA[0]" SITE "A8" ;
@@ -39,7 +39,7 @@ COMMERCIAL ;
 
 // No timing preferences found. TRCE invokes auto-generation of timing preferences
 // Section Autogen
-FREQUENCY NET "LPC_CLK33M_GMUX_c" 594.177 MHz ;
-FREQUENCY NET "Frame_Clock" 594.177 MHz ;
-FREQUENCY NET "Key_Clock" 453.926 MHz ;
+FREQUENCY NET "LPC_CLK33M_GMUX_c" 204.792 MHz ;
+FREQUENCY NET "Frame_Clock" 344.590 MHz ;
+FREQUENCY NET "Key_Clock" 263.296 MHz ;
 // End Section Autogen

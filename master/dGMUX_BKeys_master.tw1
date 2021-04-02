@@ -1,0 +1,456 @@
+
+Loading design for application trce from file dgmux_bkeys_master_map.ncd.
+Design name: gGMUX_BKeys
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFXP2-5E
+Package:     CSBGA132
+Performance: 5
+Loading device for application trce from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.42.
+Performance Hardware Data Status:   Final          Version 11.5.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.0.240.2
+Fri Apr 02 02:37:14 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o dGMUX_BKeys_master.tw1 -gui -msgset C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/promote.xml dGMUX_BKeys_master_map.ncd dGMUX_BKeys_master.prf 
+Design file:     dgmux_bkeys_master_map.ncd
+Preference file: dgmux_bkeys_master.prf
+Device,speed:    LFXP2-5E,5
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+Report Type:     based on TRACE automatically generated preferences
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "LPC_CLK33M_GMUX_c" 204.792000 MHz ;
+            3039 items scored, 1725 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error: The following path exceeds requirements by 7.108ns (weighted slack = -63.972ns)
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Brightness_Level_i0  (from Key_Clock +)
+   Destination:    FF         Data in        Duty_Cycle_i13  (to LPC_CLK33M_GMUX_c +)
+
+   Delay:               7.557ns  (28.5% logic, 71.5% route), 6 logic levels.
+
+ Constraint Details:
+
+      7.557ns physical path delay SLICE_48 to SLICE_78 exceeds
+      (delay constraint based on source clock period of 3.798ns and destination clock period of 4.883ns)
+      0.542ns delay constraint less
+      0.093ns DIN_SET requirement (totaling 0.449ns) by 7.108ns
+
+ Physical Path Details:
+
+      Data path SLICE_48 to SLICE_78:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.383   SLICE_48.CLK to    SLICE_48.Q0 SLICE_48 (from Key_Clock)
+ROUTE        25   e 1.081    SLICE_48.Q0 to   SLICE_101.A0 Brightness_Level_0
+CTOF_DEL    ---     0.260   SLICE_101.A0 to   SLICE_101.F0 SLICE_101
+ROUTE         4   e 1.081   SLICE_101.F0 to    SLICE_97.D1 n4801
+CTOF_DEL    ---     0.260    SLICE_97.D1 to    SLICE_97.F1 SLICE_97
+ROUTE         3   e 1.081    SLICE_97.F1 to   SLICE_116.C1 n4258
+CTOF_DEL    ---     0.260   SLICE_116.C1 to   SLICE_116.F1 SLICE_116
+ROUTE         6   e 1.081   SLICE_116.F1 to *3/SLICE_86.C0 n4794
+CTOOFX_DEL  ---     0.494 *3/SLICE_86.C0 to *SLICE_86.OFX0 i2843/SLICE_86
+ROUTE         1   e 1.081 *SLICE_86.OFX0 to    SLICE_78.A1 n4762
+CTOOFX_DEL  ---     0.494    SLICE_78.A1 to  SLICE_78.OFX0 SLICE_78
+ROUTE         1   e 0.001  SLICE_78.OFX0 to   SLICE_78.DI0 n2834 (to LPC_CLK33M_GMUX_c)
+                  --------
+                    7.557   (28.5% logic, 71.5% route), 6 logic levels.
+
+Warning:  14.510MHz is the maximum frequency for this preference.
+
+
+================================================================================
+Preference: FREQUENCY NET "Frame_Clock" 344.590000 MHz ;
+            30 items scored, 28 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error: The following path exceeds requirements by 4.798ns (weighted slack = -17.805ns)
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Decoded_Frame__i4  (from LPC_CLK33M_GMUX_c +)
+   Destination:    FF         Data in        Last_Key_Press__i1  (to Frame_Clock +)
+
+   Delay:               5.487ns  (30.7% logic, 69.3% route), 6 logic levels.
+
+ Constraint Details:
+
+      5.487ns physical path delay SLICE_56 to SLICE_84 exceeds
+      (delay constraint based on source clock period of 4.883ns and destination clock period of 2.902ns)
+      0.782ns delay constraint less
+      0.093ns DIN_SET requirement (totaling 0.689ns) by 4.798ns
+
+ Physical Path Details:
+
+      Data path SLICE_56 to SLICE_84:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.383   SLICE_56.CLK to    SLICE_56.Q0 SLICE_56 (from LPC_CLK33M_GMUX_c)
+ROUTE         1   e 1.081    SLICE_56.Q0 to   SLICE_110.A0 Decoded_Frame_4
+CTOF_DEL    ---     0.260   SLICE_110.A0 to   SLICE_110.F0 SLICE_110
+ROUTE         1   e 0.280   SLICE_110.F0 to   SLICE_110.B1 n18_adj_24
+CTOF_DEL    ---     0.260   SLICE_110.B1 to   SLICE_110.F1 SLICE_110
+ROUTE         1   e 1.081   SLICE_110.F1 to   SLICE_100.B1 n20_adj_25
+CTOF_DEL    ---     0.260   SLICE_100.B1 to   SLICE_100.F1 SLICE_100
+ROUTE         1   e 0.280   SLICE_100.F1 to   SLICE_100.B0 n3944
+CTOF_DEL    ---     0.260   SLICE_100.B0 to   SLICE_100.F0 SLICE_100
+ROUTE         2   e 1.081   SLICE_100.F0 to    SLICE_84.B1 n3954
+CTOF_DEL    ---     0.260    SLICE_84.B1 to    SLICE_84.F1 SLICE_84
+ROUTE         1   e 0.001    SLICE_84.F1 to   SLICE_84.DI1 Last_Key_Press_1_N_182_1 (to Frame_Clock)
+                  --------
+                    5.487   (30.7% logic, 69.3% route), 6 logic levels.
+
+Warning:  48.293MHz is the maximum frequency for this preference.
+
+
+================================================================================
+Preference: FREQUENCY NET "Key_Clock" 263.296000 MHz ;
+            89 items scored, 55 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error: The following path exceeds requirements by 6.667ns (weighted slack = -99.690ns)
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Last_Key_Press__i1  (from Frame_Clock +)
+   Destination:    FF         Data in        Brightness_Level_i4  (to Key_Clock +)
+
+   Delay:               6.828ns  (28.5% logic, 71.5% route), 7 logic levels.
+
+ Constraint Details:
+
+      6.828ns physical path delay SLICE_84 to SLICE_50 exceeds
+      (delay constraint based on source clock period of 2.902ns and destination clock period of 3.798ns)
+      0.254ns delay constraint less
+      0.093ns DIN_SET requirement (totaling 0.161ns) by 6.667ns
+
+ Physical Path Details:
+
+      Data path SLICE_84 to SLICE_50:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.383   SLICE_84.CLK to    SLICE_84.Q1 SLICE_84 (from Frame_Clock)
+ROUTE         2   e 1.081    SLICE_84.Q1 to   SLICE_121.A0 Last_Key_Press_1
+CTOF_DEL    ---     0.260   SLICE_121.A0 to   SLICE_121.F0 SLICE_121
+ROUTE         5   e 1.081   SLICE_121.F0 to    SLICE_95.B0 n565
+CTOF_DEL    ---     0.260    SLICE_95.B0 to    SLICE_95.F0 SLICE_95
+ROUTE         1   e 0.280    SLICE_95.F0 to    SLICE_95.C1 n4741
+CTOF_DEL    ---     0.260    SLICE_95.C1 to    SLICE_95.F1 SLICE_95
+ROUTE         1   e 1.081    SLICE_95.F1 to    SLICE_94.D0 n4743
+CTOF_DEL    ---     0.260    SLICE_94.D0 to    SLICE_94.F0 SLICE_94
+ROUTE         1   e 0.280    SLICE_94.F0 to    SLICE_94.C1 n4745
+CTOF_DEL    ---     0.260    SLICE_94.C1 to    SLICE_94.F1 SLICE_94
+ROUTE         1   e 1.081    SLICE_94.F1 to    SLICE_50.D1 n4747
+CTOF_DEL    ---     0.260    SLICE_50.D1 to    SLICE_50.F1 SLICE_50
+ROUTE         1   e 0.001    SLICE_50.F1 to   SLICE_50.DI1 Brightness_Level_4_N_78_4 (to Key_Clock)
+                  --------
+                    6.828   (28.5% logic, 71.5% route), 7 logic levels.
+
+Warning:   9.663MHz is the maximum frequency for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "LPC_CLK33M_GMUX_c"       |             |             |
+204.792000 MHz ;                        |  204.792 MHz|   14.510 MHz|   6 *
+                                        |             |             |
+FREQUENCY NET "Frame_Clock" 344.590000  |             |             |
+MHz ;                                   |  344.590 MHz|   48.293 MHz|   6 *
+                                        |             |             |
+FREQUENCY NET "Key_Clock" 263.296000    |             |             |
+MHz ;                                   |  263.296 MHz|    9.663 MHz|   7 *
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+3 preferences(marked by "*" above) not met.
+
+----------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+----------------------------------------------------------------------------
+LPC_CLK33M_GMUX_c_enable_32             |      16|     536|     29.65%
+                                        |        |        |
+n2415                                   |       2|     406|     22.46%
+                                        |        |        |
+n3757                                   |       1|     390|     21.57%
+                                        |        |        |
+n3756                                   |       1|     358|     19.80%
+                                        |        |        |
+Frame_Counter_16_N_146_16               |      18|     352|     19.47%
+                                        |        |        |
+n3755                                   |       1|     326|     18.03%
+                                        |        |        |
+n3754                                   |       1|     294|     16.26%
+                                        |        |        |
+n3753                                   |       1|     237|     13.11%
+                                        |        |        |
+Brightness_Level_1                      |      31|     220|     12.17%
+                                        |        |        |
+Brightness_Level_2                      |      41|     218|     12.06%
+                                        |        |        |
+n9                                      |       3|     216|     11.95%
+                                        |        |        |
+Brightness_Level_4                      |      39|     214|     11.84%
+                                        |        |        |
+Brightness_Level_0                      |      25|     204|     11.28%
+                                        |        |        |
+----------------------------------------------------------------------------
+
+
+Clock Domains Analysis
+------------------------
+
+Found 3 clocks:
+
+Clock Domain: LPC_CLK33M_GMUX_c   Source: LPC_CLK33M_GMUX.PAD   Loads: 70
+   Covered under: FREQUENCY NET "LPC_CLK33M_GMUX_c" 204.792000 MHz ;
+
+   Data transfers from:
+   Clock Domain: Key_Clock   Source: SLICE_83.Q0
+      Covered under: FREQUENCY NET "LPC_CLK33M_GMUX_c" 204.792000 MHz ;   Transfers: 5
+
+Clock Domain: Key_Clock   Source: SLICE_83.Q0   Loads: 31
+   Covered under: FREQUENCY NET "Key_Clock" 263.296000 MHz ;
+
+   Data transfers from:
+   Clock Domain: Frame_Clock   Source: SLICE_82.Q0
+      Covered under: FREQUENCY NET "Key_Clock" 263.296000 MHz ;   Transfers: 2
+
+Clock Domain: Frame_Clock   Source: SLICE_82.Q0   Loads: 1
+   Covered under: FREQUENCY NET "Frame_Clock" 344.590000 MHz ;
+
+   Data transfers from:
+   Clock Domain: LPC_CLK33M_GMUX_c   Source: LPC_CLK33M_GMUX.PAD
+      Covered under: FREQUENCY NET "Frame_Clock" 344.590000 MHz ;   Transfers: 14
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 1808  Score: 42220751
+Cumulative negative slack: 42220751
+
+Constraints cover 4149 paths, 72 nets, and 1018 connections (93.22% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2
+Fri Apr 02 02:37:14 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o dGMUX_BKeys_master.tw1 -gui -msgset C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/promote.xml dGMUX_BKeys_master_map.ncd dGMUX_BKeys_master.prf 
+Design file:     dgmux_bkeys_master_map.ncd
+Preference file: dgmux_bkeys_master.prf
+Device,speed:    LFXP2-5E,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "LPC_CLK33M_GMUX_c" 204.792000 MHz ;
+            3039 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.237ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Key_Clock_105  (from LPC_CLK33M_GMUX_c +)
+   Destination:    FF         Data in        Brightness_Trigger_dly_107  (to LPC_CLK33M_GMUX_c +)
+
+   Delay:               0.223ns  (53.8% logic, 46.2% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.223ns physical path delay SLICE_83 to SLICE_83 meets
+     -0.014ns M_HLD and
+      0.000ns delay constraint requirement (totaling -0.014ns) by 0.237ns
+
+ Physical Path Details:
+
+      Data path SLICE_83 to SLICE_83:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.120   SLICE_83.CLK to    SLICE_83.Q0 SLICE_83 (from LPC_CLK33M_GMUX_c)
+ROUTE        31   e 0.103    SLICE_83.Q0 to    SLICE_83.M1 Key_Clock (to LPC_CLK33M_GMUX_c)
+                  --------
+                    0.223   (53.8% logic, 46.2% route), 1 logic levels.
+
+
+================================================================================
+Preference: FREQUENCY NET "Frame_Clock" 344.590000 MHz ;
+            30 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.282ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Last_Key_Press__i0  (from Frame_Clock +)
+   Destination:    FF         Data in        Last_Key_Press__i0  (to Frame_Clock +)
+
+   Delay:               0.283ns  (63.3% logic, 36.7% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.283ns physical path delay SLICE_84 to SLICE_84 meets
+      0.001ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling 0.001ns) by 0.282ns
+
+ Physical Path Details:
+
+      Data path SLICE_84 to SLICE_84:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.120   SLICE_84.CLK to    SLICE_84.Q0 SLICE_84 (from Frame_Clock)
+ROUTE        11   e 0.103    SLICE_84.Q0 to    SLICE_84.A0 Last_Key_Press_0
+CTOF_DEL    ---     0.059    SLICE_84.A0 to    SLICE_84.F0 SLICE_84
+ROUTE         1   e 0.001    SLICE_84.F0 to   SLICE_84.DI0 Last_Key_Press_1_N_182_0 (to Frame_Clock)
+                  --------
+                    0.283   (63.3% logic, 36.7% route), 2 logic levels.
+
+
+================================================================================
+Preference: FREQUENCY NET "Key_Clock" 263.296000 MHz ;
+            89 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.282ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Brightness_Level_i0  (from Key_Clock +)
+   Destination:    FF         Data in        Brightness_Level_i1  (to Key_Clock +)
+
+   Delay:               0.283ns  (63.3% logic, 36.7% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.283ns physical path delay SLICE_48 to SLICE_48 meets
+      0.001ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling 0.001ns) by 0.282ns
+
+ Physical Path Details:
+
+      Data path SLICE_48 to SLICE_48:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.120   SLICE_48.CLK to    SLICE_48.Q0 SLICE_48 (from Key_Clock)
+ROUTE        25   e 0.103    SLICE_48.Q0 to    SLICE_48.D1 Brightness_Level_0
+CTOF_DEL    ---     0.059    SLICE_48.D1 to    SLICE_48.F1 SLICE_48
+ROUTE         1   e 0.001    SLICE_48.F1 to   SLICE_48.DI1 Brightness_Level_4_N_78_1 (to Key_Clock)
+                  --------
+                    0.283   (63.3% logic, 36.7% route), 2 logic levels.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "LPC_CLK33M_GMUX_c"       |             |             |
+204.792000 MHz ;                        |     0.000 ns|     0.237 ns|   1  
+                                        |             |             |
+FREQUENCY NET "Frame_Clock" 344.590000  |             |             |
+MHz ;                                   |     0.000 ns|     0.282 ns|   2  
+                                        |             |             |
+FREQUENCY NET "Key_Clock" 263.296000    |             |             |
+MHz ;                                   |     0.000 ns|     0.282 ns|   2  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 3 clocks:
+
+Clock Domain: LPC_CLK33M_GMUX_c   Source: LPC_CLK33M_GMUX.PAD   Loads: 70
+   Covered under: FREQUENCY NET "LPC_CLK33M_GMUX_c" 204.792000 MHz ;
+
+   Data transfers from:
+   Clock Domain: Key_Clock   Source: SLICE_83.Q0
+      Covered under: FREQUENCY NET "LPC_CLK33M_GMUX_c" 204.792000 MHz ;   Transfers: 5
+
+Clock Domain: Key_Clock   Source: SLICE_83.Q0   Loads: 31
+   Covered under: FREQUENCY NET "Key_Clock" 263.296000 MHz ;
+
+   Data transfers from:
+   Clock Domain: Frame_Clock   Source: SLICE_82.Q0
+      Covered under: FREQUENCY NET "Key_Clock" 263.296000 MHz ;   Transfers: 2
+
+Clock Domain: Frame_Clock   Source: SLICE_82.Q0   Loads: 1
+   Covered under: FREQUENCY NET "Frame_Clock" 344.590000 MHz ;
+
+   Data transfers from:
+   Clock Domain: LPC_CLK33M_GMUX_c   Source: LPC_CLK33M_GMUX.PAD
+      Covered under: FREQUENCY NET "Frame_Clock" 344.590000 MHz ;   Transfers: 14
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 4149 paths, 72 nets, and 1018 connections (93.22% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 1808 (setup), 0 (hold)
+Score: 42220751 (setup), 0 (hold)
+Cumulative negative slack: 42220751 (42220751+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+

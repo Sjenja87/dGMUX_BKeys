@@ -19,15 +19,16 @@
 				<BScanLen>1</BScanLen>
 				<BScanVal>0</BScanVal>
 			</Bypass>
-			<File>C:/Users/Sjenja/source/repos/dGMUX/master/dGMUX_BKeys_master.jed</File>
-			<FileTime>04/02/21 00:36:22</FileTime>
-			<JedecChecksum>0x083C</JedecChecksum>
+			<File>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/master/dGMUX_BKeys_master.jed</File>
+			<FileTime>04/02/21 02:37:28</FileTime>
+			<JedecChecksum>0x0EB6</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
 				<IOState>Leave Alone</IOState>
 				<PreloadLength>394</PreloadLength>
 				<IOVectorData>0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</IOVectorData>
+				<SVFProcessor>SVF Processor</SVFProcessor>
 				<Usercode>0xFFFFFFFF</Usercode>
 				<AccessMode>FLASH</AccessMode>
 			</Option>
@@ -45,5 +46,6 @@
 	<CableOptions>
 		<CableName>USB</CableName>
 		<PortAdd>EzUSB-0</PortAdd>
+		<USBID>\\?\usb#vid_1134&amp;amp;pid_8001#6&amp;amp;2d974aff&amp;amp;0&amp;amp;3#</USBID>
 	</CableOptions>
 </ispXCF>

@@ -4,49 +4,49 @@
         <Message>
             <ID>1100644</ID>
             <Severity>Warning</Severity>
-            <Dynamic>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf(24): Semantic error in &quot;IOBUF PORT &quot;LPC_AD[0]&quot; IO_TYPE=LVCMOS33 PULLMODE=NONE SLEWRATE=SLOW ;&quot;: </Dynamic>
+            <Dynamic>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(24): Semantic error in &quot;IOBUF PORT &quot;LPC_AD[0]&quot; IO_TYPE=LVCMOS33 PULLMODE=NONE SLEWRATE=SLOW ;&quot;: </Dynamic>
             <Dynamic>LPC_AD[0]</Dynamic>
-            <Navigation>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf</Navigation>
+            <Navigation>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf</Navigation>
             <Navigation>24</Navigation>
         </Message>
         <Message>
             <ID>1100644</ID>
             <Severity>Warning</Severity>
-            <Dynamic>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf(26): Semantic error in &quot;IOBUF PORT &quot;LPC_AD[1]&quot; IO_TYPE=LVCMOS33 PULLMODE=NONE SLEWRATE=SLOW ;&quot;: </Dynamic>
+            <Dynamic>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(26): Semantic error in &quot;IOBUF PORT &quot;LPC_AD[1]&quot; IO_TYPE=LVCMOS33 PULLMODE=NONE SLEWRATE=SLOW ;&quot;: </Dynamic>
             <Dynamic>LPC_AD[1]</Dynamic>
-            <Navigation>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf</Navigation>
+            <Navigation>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf</Navigation>
             <Navigation>26</Navigation>
         </Message>
         <Message>
             <ID>1100644</ID>
             <Severity>Warning</Severity>
-            <Dynamic>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf(28): Semantic error in &quot;IOBUF PORT &quot;LPC_AD[2]&quot; IO_TYPE=LVCMOS33 PULLMODE=NONE SLEWRATE=SLOW ;&quot;: </Dynamic>
+            <Dynamic>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(28): Semantic error in &quot;IOBUF PORT &quot;LPC_AD[2]&quot; IO_TYPE=LVCMOS33 PULLMODE=NONE SLEWRATE=SLOW ;&quot;: </Dynamic>
             <Dynamic>LPC_AD[2]</Dynamic>
-            <Navigation>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf</Navigation>
+            <Navigation>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf</Navigation>
             <Navigation>28</Navigation>
         </Message>
         <Message>
             <ID>1100644</ID>
             <Severity>Warning</Severity>
-            <Dynamic>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf(30): Semantic error in &quot;IOBUF PORT &quot;LPC_AD[3]&quot; IO_TYPE=LVCMOS33 PULLMODE=NONE SLEWRATE=SLOW ;&quot;: </Dynamic>
+            <Dynamic>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(30): Semantic error in &quot;IOBUF PORT &quot;LPC_AD[3]&quot; IO_TYPE=LVCMOS33 PULLMODE=NONE SLEWRATE=SLOW ;&quot;: </Dynamic>
             <Dynamic>LPC_AD[3]</Dynamic>
-            <Navigation>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf</Navigation>
+            <Navigation>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf</Navigation>
             <Navigation>30</Navigation>
         </Message>
         <Message>
             <ID>1100644</ID>
             <Severity>Warning</Severity>
-            <Dynamic>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf(33): Semantic error in &quot;IOBUF PORT &quot;LPC_FRAME_L&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(33): Semantic error in &quot;IOBUF PORT &quot;LPC_FRAME_L&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
             <Dynamic>LPC_FRAME_L</Dynamic>
-            <Navigation>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf</Navigation>
+            <Navigation>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf</Navigation>
             <Navigation>33</Navigation>
         </Message>
         <Message>
             <ID>1100644</ID>
             <Severity>Warning</Severity>
-            <Dynamic>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf(36): Semantic error in &quot;IOBUF PORT &quot;LPCPLUS_RESET_L&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(36): Semantic error in &quot;IOBUF PORT &quot;LPCPLUS_RESET_L&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
             <Dynamic>LPCPLUS_RESET_L</Dynamic>
-            <Navigation>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf</Navigation>
+            <Navigation>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf</Navigation>
             <Navigation>36</Navigation>
         </Message>
         <Message>
@@ -128,131 +128,131 @@
         <Message>
             <ID>35901018</ID>
             <Severity>Info</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v(1): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(1): </Dynamic>
             <Dynamic>gGMUX_BKeys</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v</Navigation>
+            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>1</Navigation>
         </Message>
         <Message>
             <ID>35901220</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v(106): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(106): </Dynamic>
             <Dynamic>Brightness_Up</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v</Navigation>
+            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>106</Navigation>
         </Message>
         <Message>
             <ID>35901220</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v(108): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(108): </Dynamic>
             <Dynamic>Brightness_Down</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v</Navigation>
+            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>108</Navigation>
         </Message>
         <Message>
             <ID>35901220</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v(112): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(112): </Dynamic>
             <Dynamic>test</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v</Navigation>
+            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>112</Navigation>
         </Message>
         <Message>
             <ID>35901220</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v(223): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(223): </Dynamic>
             <Dynamic>Periode</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v</Navigation>
+            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>223</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v(125): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(125): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>4</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v</Navigation>
+            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>125</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v(132): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(132): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>11</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v</Navigation>
+            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>132</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v(139): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(139): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>17</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v</Navigation>
+            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>139</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v(166): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(166): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>6</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v</Navigation>
+            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>166</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v(184): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(184): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>23</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v</Navigation>
+            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>184</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v(198): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(198): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>5</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v</Navigation>
+            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>198</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v(200): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(200): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>5</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v</Navigation>
+            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>200</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v(218): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(218): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>1</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v</Navigation>
+            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>218</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v(261): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(261): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>17</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v</Navigation>
+            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>261</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v(266): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(266): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>1</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v</Navigation>
+            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>266</Navigation>
         </Message>
         <Message>
@@ -498,17 +498,17 @@
         <Message>
             <ID>35935013</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v(139): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(139): </Dynamic>
             <Dynamic>add_117_e1_i0_i16</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v</Navigation>
+            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>139</Navigation>
         </Message>
         <Message>
             <ID>35935013</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v(252): </Dynamic>
+            <Dynamic>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(252): </Dynamic>
             <Dynamic>Duty_Cycle_i17</Dynamic>
-            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys_main.v</Navigation>
+            <Navigation>c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v</Navigation>
             <Navigation>252</Navigation>
         </Message>
         <Message>
@@ -630,6 +630,10 @@
         </Message>
     </Task>
     <Task name="PAR">
+        <Message>
+            <ID>61001101</ID>
+            <Severity>Warning</Severity>
+        </Message>
         <Message>
             <ID>62071013</ID>
             <Severity>Warning</Severity>

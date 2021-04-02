@@ -5,22 +5,22 @@
             <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
-            <Task name="Bitgen" build_result="0" update_result="2" update_time="1617316926"/>
+            <Task name="Bitgen" build_result="2" update_result="0" update_time="1617323848"/>
         </Milestone>
-        <Milestone name="Map" build_result="0" build_time="1617316926">
-            <Task name="Map" build_result="0" update_result="2" update_time="1617316926"/>
-            <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
+        <Milestone name="Map" build_result="2" build_time="1617323833">
+            <Task name="Map" build_result="2" update_result="0" update_time="1617323833"/>
+            <Task name="MapTrace" build_result="2" update_result="0" update_time="1617323835"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="0" build_time="1617316926">
-            <Task name="PAR" build_result="0" update_result="2" update_time="1617316926"/>
-            <Task name="PARTrace" build_result="0" update_result="2" update_time="1617316926"/>
+        <Milestone name="PAR" build_result="2" build_time="1617323842">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1617323842"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1617323844"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="0" build_time="1617316881">
-            <Task name="Lattice_Synthesis" build_result="0" update_result="2" update_time="1617316881"/>
-            <Task name="LSE_Compile" build_result="0" update_result="2" update_time="1617316881"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1617323832">
+            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1617323832"/>
+            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1617323848"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
             <Task name="HDLE" build_result="2" update_result="0" update_time="1617316881"/>
@@ -29,13 +29,14 @@
             <Task name="PIODRC" build_result="0" update_result="3" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Report name=".vdbs/dGMUX_BKeys_master_map.vdb" last_build_time="1617316565" last_build_size="95672"/>
-        <Report name="dGMUX_BKeys_master.bgn" last_build_time="1617316582" last_build_size="3522"/>
-        <Report name="dGMUX_BKeys_master.jed" last_build_time="1617316582" last_build_size="1269035"/>
-        <Report name="dGMUX_BKeys_master.lsedata" last_build_time="1617316562" last_build_size="305379"/>
-        <Report name="dGMUX_BKeys_master.ncd" last_build_time="1617316570" last_build_size="216399"/>
-        <Report name="dGMUX_BKeys_master.ngd" last_build_time="1617316563" last_build_size="219589"/>
-        <Report name="dGMUX_BKeys_master.twr" last_build_time="1617316572" last_build_size="151559"/>
-        <Report name="dGMUX_BKeys_master_map.ncd" last_build_time="1617316564" last_build_size="141925"/>
+        <Report name=".vdbs/dGMUX_BKeys_master_map.vdb" last_build_time="1617323833" last_build_size="99020"/>
+        <Report name="dGMUX_BKeys_master.bgn" last_build_time="1617323848" last_build_size="3613"/>
+        <Report name="dGMUX_BKeys_master.jed" last_build_time="1617323848" last_build_size="1269035"/>
+        <Report name="dGMUX_BKeys_master.lsedata" last_build_time="1617323830" last_build_size="305379"/>
+        <Report name="dGMUX_BKeys_master.ncd" last_build_time="1617323842" last_build_size="219684"/>
+        <Report name="dGMUX_BKeys_master.ngd" last_build_time="1617323832" last_build_size="219589"/>
+        <Report name="dGMUX_BKeys_master.tw1" last_build_time="1617323835" last_build_size="20723"/>
+        <Report name="dGMUX_BKeys_master.twr" last_build_time="1617323844" last_build_size="155681"/>
+        <Report name="dGMUX_BKeys_master_map.ncd" last_build_time="1617323832" last_build_size="141925"/>
     </Strategy>
 </BuildStatus>

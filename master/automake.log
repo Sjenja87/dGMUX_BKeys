@@ -1,7 +1,929 @@
 
+synthesis -f "dGMUX_BKeys_master_lattice.synproj"
+synthesis:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Fri Apr 02 02:37:10 2021
+
+
+Command Line:  synthesis -f dGMUX_BKeys_master_lattice.synproj -gui -msgset C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/promote.xml 
+
+    <postMsg mid="35002000" type="Info"    dynamic="0" navigation="0"  />
+Synthesis options:
+The -a option is LatticeXP2.
+The -s option is 5.
+The -t option is CSBGA132.
+The -d option is LFXP2-5E.
+Using package CSBGA132.
+Using performance grade 5.
+                                                          
+
+##########################################################
+
+### Lattice Family : LatticeXP2
+
+### Device  : LFXP2-5E
+
+### Package : CSBGA132
+
+### Speed   : 5
+
+##########################################################
+
+                                                          
+
+    <postMsg mid="35001781" type="Info"    dynamic="0" navigation="0"  />
+Optimization goal = Timing
+Top-level module name = gGMUX_BKeys.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys (searchpath added)
+-p C:/lscc/diamond/3.12/ispfpga/mg5a00/data (searchpath added)
+-p C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/master (searchpath added)
+-p C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys (searchpath added)
+Verilog design file = C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys_main.v
+NGD file = dGMUX_BKeys_master.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Analyzing Verilog file C:/lscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/xp2.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v. VERI-1482
+Analyzing Verilog file C:/lscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/xp2.v. VERI-1482
+Top module name (Verilog): gGMUX_BKeys
+    <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(1): " arg1="gGMUX_BKeys" arg2="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v" arg3="1"  />
+    <postMsg mid="35901220" type="Warning" dynamic="2" navigation="2" arg0="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(106): " arg1="Brightness_Up" arg2="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v" arg3="106"  />
+    <postMsg mid="35901220" type="Warning" dynamic="2" navigation="2" arg0="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(108): " arg1="Brightness_Down" arg2="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v" arg3="108"  />
+    <postMsg mid="35901220" type="Warning" dynamic="2" navigation="2" arg0="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(112): " arg1="test" arg2="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v" arg3="112"  />
+    <postMsg mid="35901220" type="Warning" dynamic="2" navigation="2" arg0="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(223): " arg1="Periode" arg2="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v" arg3="223"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(125): " arg1="32" arg2="4" arg3="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v" arg4="125"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(132): " arg1="32" arg2="11" arg3="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v" arg4="132"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(139): " arg1="32" arg2="17" arg3="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v" arg4="139"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(166): " arg1="32" arg2="6" arg3="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v" arg4="166"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(184): " arg1="32" arg2="23" arg3="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v" arg4="184"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(198): " arg1="32" arg2="5" arg3="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v" arg4="198"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(200): " arg1="32" arg2="5" arg3="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v" arg4="200"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(218): " arg1="32" arg2="1" arg3="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v" arg4="218"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(261): " arg1="32" arg2="17" arg3="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v" arg4="261"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(266): " arg1="32" arg2="1" arg3="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v" arg4="266"  />
+Last elaborated design is gGMUX_BKeys()
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/mg5a00/data/mg5alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/ep5a00/data/ep5alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/ep5g00/data/ep5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.42.
+Top-level module name = gGMUX_BKeys.
+    <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="gnd"  />
+    <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="pwr"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_IG_A_DATA[2]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_IG_A_DATA[1]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_IG_A_DATA[0]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_IG_B_DATA[2]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_IG_B_DATA[1]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_IG_B_DATA[0]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_IG_A_CLK"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_IG_BKL_ON"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_IG_PANEL_PWR"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_A_DATA[2]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_A_DATA[1]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_A_DATA[0]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_B_DATA[2]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_B_DATA[1]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_B_DATA[0]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_A_CLK"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_B_CLK"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LCD_BKLT_EN"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LCD_PWR_EN"  />
+######## Converting I/O port LPC_AD[3] to input.
+######## Converting I/O port LPC_AD[2] to input.
+######## Converting I/O port LPC_AD[1] to input.
+######## Converting I/O port LPC_AD[0] to input.
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LPC_FRAME_L"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LPCPLUS_RESET_L"  />
+
+
+
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_IG_A_DATA[2]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_IG_A_DATA[1]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_IG_A_DATA[0]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_IG_B_DATA[2]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_IG_B_DATA[1]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_IG_B_DATA[0]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_IG_A_CLK"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_IG_BKL_ON"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_IG_PANEL_PWR"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_A_DATA[2]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_A_DATA[1]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_A_DATA[0]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_B_DATA[2]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_B_DATA[1]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_B_DATA[0]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_A_CLK"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LVDS_B_CLK"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LCD_BKLT_EN"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LCD_PWR_EN"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LPC_AD[3]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LPC_AD[2]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LPC_AD[1]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LPC_AD[0]"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LPC_FRAME_L"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LPCPLUS_RESET_L"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(139): " arg1="add_117_e1_i0_i16" arg2="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v" arg3="139"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(252): " arg1="Duty_Cycle_i17" arg2="c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v" arg3="252"  />
+GSR will not be inferred because no asynchronous signal was found in the netlist.
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="Duty_Cycle_i3"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="Duty_Cycle_i4"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="Duty_Cycle_i8"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="Duty_Cycle_i9"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="Duty_Cycle_i12"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="Duty_Cycle_i16"  />
+Applying 200.000000 MHz constraint to all clocks
+
+    <postMsg mid="35001611" type="Warning" dynamic="0" navigation="0"  />
+Results of NGD DRC are available in gGMUX_BKeys_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/mg5a00/data/mg5alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/ep5a00/data/ep5alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/ep5g00/data/ep5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="LPC_AD[3]" arg2="LPC_AD[3]"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="LPC_AD[3]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="LPC_AD[2]" arg2="LPC_AD[2]"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="LPC_AD[2]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="LPC_AD[1]" arg2="LPC_AD[1]"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="LPC_AD[1]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="LPC_AD[0]" arg2="LPC_AD[0]"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="LPC_AD[0]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="LPC_FRAME_L" arg2="LPC_FRAME_L"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="LPC_FRAME_L"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="LPCPLUS_RESET_L" arg2="LPCPLUS_RESET_L"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="LPCPLUS_RESET_L"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="12"  />
+
+Design Results:
+    389 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file dGMUX_BKeys_master.ngd.
+
+################### Begin Area Report (gGMUX_BKeys)######################
+Number of register bits => 113 of 3822 (2 % )
+CCU2B => 46
+FD1P3IX => 33
+FD1P3JX => 3
+FD1S3AX => 29
+FD1S3AY => 5
+FD1S3IX => 42
+FD1S3JX => 1
+GSR => 1
+IB => 11
+L6MUX21 => 2
+OB => 18
+ORCALUT4 => 171
+PFUMX => 24
+################### End Area Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 3
+  Net : LPC_CLK33M_GMUX_c, loads : 106
+  Net : Key_Clock, loads : 33
+  Net : Frame_Clock, loads : 2
+Clock Enable Nets
+Number of Clock Enables: 17
+Top 10 highest fanout Clock Enables:
+  Net : LPC_CLK33M_GMUX_c_enable_32, loads : 18
+  Net : LPC_CLK33M_GMUX_c_enable_21, loads : 11
+  Net : LPC_CLK33M_GMUX_c_enable_10, loads : 7
+  Net : LPC_CLK33M_GMUX_c_enable_26, loads : 1
+  Net : LPC_CLK33M_GMUX_c_enable_28, loads : 1
+  Net : LPC_CLK33M_GMUX_c_enable_2, loads : 1
+  Net : LPC_CLK33M_GMUX_c_enable_29, loads : 1
+  Net : LPC_CLK33M_GMUX_c_enable_24, loads : 1
+  Net : LPC_CLK33M_GMUX_c_enable_30, loads : 1
+  Net : LPC_CLK33M_GMUX_c_enable_1, loads : 1
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : Brightness_Level_2, loads : 41
+  Net : Brightness_Level_4, loads : 38
+  Net : Brightness_Level_1, loads : 31
+  Net : Brightness_Level_3, loads : 29
+  Net : Brightness_Trigger_dly, loads : 27
+  Net : Prescale_Counter_22, loads : 25
+  Net : Brightness_Level_0, loads : 25
+  Net : Frame_Counter_16_N_146_16, loads : 20
+  Net : GMUX_RESET_L_c, loads : 19
+  Net : n4783, loads : 19
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk2 [get_nets Key_Clock]               |  200.000 MHz|  103.713 MHz|     8 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk1 [get_nets Frame_Clock]             |  200.000 MHz|  288.600 MHz|     2  
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets LPC_CLK33M_GMUX_c]       |  200.000 MHz|  104.723 MHz|    13 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+2 constraints not met.
+
+
+Peak Memory Usage: 67.867  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 1.266  secs
+--------------------------------------------------------------
+
+map -a "LatticeXP2" -p LFXP2-5E -t CSBGA132 -s 5 -oc Commercial   "dGMUX_BKeys_master.ngd" -o "dGMUX_BKeys_master_map.ncd" -pr "dGMUX_BKeys_master.prf" -mp "dGMUX_BKeys_master.mrp" -lpf "C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/master/dGMUX_BKeys_master.lpf" -lpf "C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf"             
+map:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: dGMUX_BKeys_master.ngd
+   Picdevice="LFXP2-5E"
+
+   Pictype="CSBGA132"
+
+   Picspeed=5
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LFXP2-5ECSBGA132, Performance used: 5.
+
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(24): Semantic error in &quot;IOBUF PORT &quot;LPC_AD[0]&quot; IO_TYPE=LVCMOS33 PULLMODE=NONE SLEWRATE=SLOW ;&quot;: " arg1="LPC_AD[0]" arg2="C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf" arg3="24"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(26): Semantic error in &quot;IOBUF PORT &quot;LPC_AD[1]&quot; IO_TYPE=LVCMOS33 PULLMODE=NONE SLEWRATE=SLOW ;&quot;: " arg1="LPC_AD[1]" arg2="C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf" arg3="26"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(28): Semantic error in &quot;IOBUF PORT &quot;LPC_AD[2]&quot; IO_TYPE=LVCMOS33 PULLMODE=NONE SLEWRATE=SLOW ;&quot;: " arg1="LPC_AD[2]" arg2="C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf" arg3="28"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(30): Semantic error in &quot;IOBUF PORT &quot;LPC_AD[3]&quot; IO_TYPE=LVCMOS33 PULLMODE=NONE SLEWRATE=SLOW ;&quot;: " arg1="LPC_AD[3]" arg2="C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf" arg3="30"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(33): Semantic error in &quot;IOBUF PORT &quot;LPC_FRAME_L&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="LPC_FRAME_L" arg2="C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf" arg3="33"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(36): Semantic error in &quot;IOBUF PORT &quot;LPCPLUS_RESET_L&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="LPCPLUS_RESET_L" arg2="C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf" arg3="36"  />
+Loading device for application map from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.42.
+
+Running general design DRC...
+
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="LPC_AD[3]"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="LPC_AD[2]"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="LPC_AD[1]"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="LPC_AD[0]"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="LPC_FRAME_L"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="LPCPLUS_RESET_L"  />
+Removing unused logic...
+
+Optimizing...
+
+206 CCU2 constant inputs absorbed.
+
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="LPC_AD[3:0](3)"  />
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="LPC_AD[3:0](2)"  />
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="LPC_AD[3:0](1)"  />
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="LPC_AD[3:0](0)"  />
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="LPC_FRAME_L"  />
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="LPCPLUS_RESET_L"  />
+
+
+
+Design Summary:
+   Number of registers:    113 out of  3822 (3%)
+      PFU registers:          113 out of  3564 (3%)
+      PIO registers:            0 out of   258 (0%)
+   Number of SLICEs:       159 out of  2376 (7%)
+      SLICEs as Logic/ROM:    159 out of  2376 (7%)
+      SLICEs as RAM:            0 out of   405 (0%)
+      SLICEs as Carry:         46 out of  2376 (2%)
+   Number of LUT4s:        267 out of  4752 (6%)
+      Number used as logic LUTs:        175
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       92
+      Number used as shift registers:     0
+   Number of PIO sites used: 44 out of 86 (51%)
+      Number of PIO sites used for single ended IOs: 14
+      Number of PIO sites used for differential IOs: 30 (represented by 15 PIO comps in NCD)
+   Number of PIO FIXEDDELAY:    0
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of block RAMs:  0 out of 9 (0%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+
+   Number Of Mapped DSP Components:
+   --------------------------------
+   MULT36X36B          0
+   MULT18X18B          0
+   MULT18X18MACB       0
+   MULT18X18ADDSUBB    0
+   MULT18X18ADDSUBSUMB 0
+   MULT9X9B            0
+   MULT9X9ADDSUBB      0
+   MULT9X9ADDSUBSUMB   0
+   --------------------------------
+   Number of Used DSP Sites:  0 out of 24 (0 %)
+   Number of clocks:  3
+     Net LPC_CLK33M_GMUX_c: 70 loads, 70 rising, 0 falling (Driver: PIO LPC_CLK33M_GMUX )
+     Net Frame_Clock: 1 loads, 1 rising, 0 falling (Driver: Frame_Clock_101 )
+     Net Key_Clock: 3 loads, 3 rising, 0 falling (Driver: Key_Clock_105 )
+   Number of Clock Enables:  17
+     Net LPC_CLK33M_GMUX_c_enable_1: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_2: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_21: 6 loads, 6 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_10: 5 loads, 5 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_32: 2 loads, 2 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_30: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_24: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_33: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_29: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_28: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_23: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_25: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_26: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_27: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_36: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_35: 1 loads, 1 LSLICEs
+     Net LPC_CLK33M_GMUX_c_enable_34: 1 loads, 1 LSLICEs
+   Number of LSRs:  5
+     Net Frame_Counter_16_N_146_16: 16 loads, 16 LSLICEs
+     Net Delay_Counter_10__N_143: 6 loads, 6 LSLICEs
+     Net Prescale_Counter_22: 12 loads, 12 LSLICEs
+     Net n4783: 7 loads, 7 LSLICEs
+     Net n2647: 9 loads, 9 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net VCC_net: 60 loads
+     Net Brightness_Level_2: 41 loads
+     Net Brightness_Level_4: 39 loads
+     Net Brightness_Level_1: 31 loads
+     Net Brightness_Level_3: 29 loads
+     Net Brightness_Trigger_dly: 27 loads
+     Net Brightness_Level_0: 25 loads
+     Net GMUX_RESET_L_c: 19 loads
+     Net Frame_Counter_16_N_146_16: 18 loads
+     Net n4783: 17 loads
+ 
+
+   Number of warnings:  18
+   Number of errors:    0
+
+
+
+Total CPU Time: 0 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 60 MB
+
+Dumping design to file dGMUX_BKeys_master_map.ncd.
+
+ncd2vdb "dGMUX_BKeys_master_map.ncd" ".vdbs/dGMUX_BKeys_master_map.vdb"
+
+Loading device for application ncd2vdb from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+
+trce -f "dGMUX_BKeys_master.mt" -o "dGMUX_BKeys_master.tw1" "dGMUX_BKeys_master_map.ncd" "dGMUX_BKeys_master.prf"
+trce:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading design for application trce from file dgmux_bkeys_master_map.ncd.
+Design name: gGMUX_BKeys
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFXP2-5E
+Package:     CSBGA132
+Performance: 5
+Loading device for application trce from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.42.
+Performance Hardware Data Status:   Final          Version 11.5.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.0.240.2
+Fri Apr 02 02:37:14 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o dGMUX_BKeys_master.tw1 -gui -msgset C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/promote.xml dGMUX_BKeys_master_map.ncd dGMUX_BKeys_master.prf 
+Design file:     dgmux_bkeys_master_map.ncd
+Preference file: dgmux_bkeys_master.prf
+Device,speed:    LFXP2-5E,5
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+Report Type:     based on TRACE automatically generated preferences
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 1808  Score: 42220751
+Cumulative negative slack: 42220751
+
+Constraints cover 4149 paths, 72 nets, and 1018 connections (93.22% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2
+Fri Apr 02 02:37:14 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o dGMUX_BKeys_master.tw1 -gui -msgset C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/promote.xml dGMUX_BKeys_master_map.ncd dGMUX_BKeys_master.prf 
+Design file:     dgmux_bkeys_master_map.ncd
+Preference file: dgmux_bkeys_master.prf
+Device,speed:    LFXP2-5E,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 4149 paths, 72 nets, and 1018 connections (93.22% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 1808 (setup), 0 (hold)
+Score: 42220751 (setup), 0 (hold)
+Cumulative negative slack: 42220751 (42220751+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Total CPU Time: 1 secs 
+Total REAL Time: 2 secs 
+Peak Memory Usage: 157 MB
+
+
+mpartrce -p "dGMUX_BKeys_master.p2t" -f "dGMUX_BKeys_master.p3t" -tf "dGMUX_BKeys_master.pt" "dGMUX_BKeys_master_map.ncd" "dGMUX_BKeys_master.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "dGMUX_BKeys_master_map.ncd"
+Fri Apr 02 02:37:15 2021
+
+PAR: Place And Route Diamond (64-bit) 3.12.0.240.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/promote.xml -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF:parASE=1 dGMUX_BKeys_master_map.ncd dGMUX_BKeys_master.dir/5_1.ncd dGMUX_BKeys_master.prf
+Preference file: dGMUX_BKeys_master.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file dGMUX_BKeys_master_map.ncd.
+Design name: gGMUX_BKeys
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFXP2-5E
+Package:     CSBGA132
+Performance: 5
+Loading device for application par from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.42.
+Performance Hardware Data Status:   Final          Version 11.5.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)      44/174          25% used
+                     44/86           51% bonded
+   SLICE            159/2376          6% used
+
+
+
+Number of Signals: 390
+Number of Connections: 1092
+    <postMsg mid="61001101" type="Warning" dynamic="0" navigation="0"  />
+
+Pin Constraint Summary:
+   29 out of 29 pins locked (100% locked).
+
+The following 1 signal is selected to use the primary clock routing resources:
+    LPC_CLK33M_GMUX_c (driver: LPC_CLK33M_GMUX, clk load #: 70)
+
+No signal is selected as DCS clock.
+
+No signal is selected as secondary clock.
+
+No signal is selected as Global Set/Reset.
+Starting Placer Phase 0.
+...........
+Finished Placer Phase 0.  REAL time: 0 secs 
+
+Starting Placer Phase 1.
+.......
+Placer score = 6036483.
+Finished Placer Phase 1.  REAL time: 3 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  5963680
+Finished Placer Phase 2.  REAL time: 4 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  General PIO: 1 out of 196 (0%)
+  PLL        : 0 out of 2 (0%)
+  CLKDIV     : 0 out of 2 (0%)
+
+Global Clocks:
+  PRIMARY "LPC_CLK33M_GMUX_c" from comp "LPC_CLK33M_GMUX" on PIO site "N12 (PB28A)", clk load = 70
+
+  PRIMARY  : 1 out of 8 (12%)
+     DCS   : 0 out of 2 (0%)
+  SECONDARY: 0 out of 4 (0%)
+
+Edge Clocks:
+  No edge clock selected
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   44 out of 174 (25.3%) PIO sites used.
+   44 out of 86 (51.2%) bonded PIO sites used.
+   Number of PIO comps: 29; differential: 15.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+------------+------------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref1 | Bank Vref2 |
++----------+----------------+------------+------------+------------+
+| 0        | 16 / 18 ( 88%) | 1.8V       | -          | -          |
+| 1        | 0 / 4 (  0%)   | -          | -          | -          |
+| 2        | 0 / 16 (  0%)  | -          | -          | -          |
+| 3        | 2 / 4 ( 50%)   | -          | -          | -          |
+| 4        | 1 / 8 ( 12%)   | -          | -          | -          |
+| 5        | 10 / 14 ( 71%) | 3.3V       | -          | -          |
+| 6        | 1 / 6 ( 16%)   | -          | -          | -          |
+| 7        | 14 / 16 ( 87%) | -          | -          | -          |
++----------+----------------+------------+------------+------------+
+
+
+DSP Utilization Summary:
+-------------------------------------
+DSP Block #:              1 2 3
+# of MULT36X36B                
+# of MULT18X18B                
+# of MULT18X18MACB             
+# of MULT18X18ADDSUBB          
+# of MULT18X18ADDSUBSUMB       
+# of MULT9X9B                  
+# of MULT9X9ADDSUBB            
+# of MULT9X9ADDSUBSUMB         
+
+Total placer CPU time: 3 secs 
+
+Dumping design to file dGMUX_BKeys_master.dir/5_1.ncd.
+
+0 connections routed; 1092 unrouted.
+Starting router resource preassignment
+    <postMsg mid="62071013" type="Warning" dynamic="1" navigation="0" arg0="LPC_CLK33M_GMUX_c"  />
+
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=Frame_Clock loads=1 clock_loads=1&#xA;   Signal=Key_Clock loads=31 clock_loads=3"  />
+
+Completed router resource preassignment. Real time: 4 secs 
+
+Start NBR router at 02:37:20 04/02/21
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 02:37:20 04/02/21
+
+Start NBR section for initial routing at 02:37:20 04/02/21
+Level 1, iteration 1
+6(0.00%) conflicts; 848(77.66%) untouched conns; 29165230 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -83.899ns/-29165.230ns; real time: 5 secs 
+Level 2, iteration 1
+6(0.00%) conflicts; 689(63.10%) untouched conns; 30586924 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -83.899ns/-30586.924ns; real time: 5 secs 
+Level 3, iteration 1
+13(0.01%) conflicts; 509(46.61%) untouched conns; 30632670 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -83.899ns/-30632.670ns; real time: 5 secs 
+Level 4, iteration 1
+19(0.01%) conflicts; 0(0.00%) untouched conn; 30793906 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -83.914ns/-30793.906ns; real time: 5 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 02:37:20 04/02/21
+Level 4, iteration 1
+10(0.00%) conflicts; 0(0.00%) untouched conn; 31033611 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -83.914ns/-31033.611ns; real time: 5 secs 
+Level 4, iteration 2
+8(0.00%) conflicts; 0(0.00%) untouched conn; 31327778 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -93.424ns/-31327.778ns; real time: 5 secs 
+Level 4, iteration 3
+6(0.00%) conflicts; 0(0.00%) untouched conn; 31329492 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -93.424ns/-31329.492ns; real time: 5 secs 
+Level 4, iteration 4
+5(0.00%) conflicts; 0(0.00%) untouched conn; 31329492 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -93.424ns/-31329.492ns; real time: 5 secs 
+Level 4, iteration 5
+4(0.00%) conflicts; 0(0.00%) untouched conn; 31385557 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -95.099ns/-31385.557ns; real time: 6 secs 
+Level 4, iteration 6
+4(0.00%) conflicts; 0(0.00%) untouched conn; 31385557 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -95.099ns/-31385.557ns; real time: 6 secs 
+Level 4, iteration 7
+4(0.00%) conflicts; 0(0.00%) untouched conn; 31385557 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -95.099ns/-31385.557ns; real time: 6 secs 
+Level 4, iteration 8
+4(0.00%) conflicts; 0(0.00%) untouched conn; 31385557 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -95.099ns/-31385.557ns; real time: 6 secs 
+Level 4, iteration 9
+3(0.00%) conflicts; 0(0.00%) untouched conn; 31386975 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -95.099ns/-31386.975ns; real time: 6 secs 
+Level 4, iteration 10
+3(0.00%) conflicts; 0(0.00%) untouched conn; 31386975 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -95.099ns/-31386.975ns; real time: 6 secs 
+Level 4, iteration 11
+3(0.00%) conflicts; 0(0.00%) untouched conn; 31393877 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -95.099ns/-31393.877ns; real time: 6 secs 
+Level 4, iteration 12
+1(0.00%) conflict; 0(0.00%) untouched conn; 31393877 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -95.099ns/-31393.877ns; real time: 6 secs 
+Level 4, iteration 13
+1(0.00%) conflict; 0(0.00%) untouched conn; 31393884 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -95.099ns/-31393.884ns; real time: 6 secs 
+Level 4, iteration 14
+1(0.00%) conflict; 0(0.00%) untouched conn; 31393884 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -95.099ns/-31393.884ns; real time: 6 secs 
+Level 4, iteration 15
+0(0.00%) conflict; 0(0.00%) untouched conn; 31394610 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -95.099ns/-31394.610ns; real time: 6 secs 
+
+Start NBR section for performance tuning (iteration 1) at 02:37:21 04/02/21
+Level 4, iteration 1
+3(0.00%) conflicts; 0(0.00%) untouched conn; 31387400 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -95.099ns/-31387.400ns; real time: 6 secs 
+Level 4, iteration 2
+0(0.00%) conflict; 0(0.00%) untouched conn; 31394610 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -95.099ns/-31394.610ns; real time: 6 secs 
+
+Start NBR section for re-routing at 02:37:21 04/02/21
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 31394610 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -95.099ns/-31394.610ns; real time: 6 secs 
+
+Start NBR section for post-routing at 02:37:21 04/02/21
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 594 (54.40%)
+  Estimated worst slack<setup> : -95.099ns
+  Timing score<setup> : 51569048
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=Frame_Clock loads=1 clock_loads=1&#xA;   Signal=Key_Clock loads=31 clock_loads=3"  />
+
+Total CPU time 6 secs 
+Total REAL time: 7 secs 
+Completely routed.
+End of route.  1092 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 6
+
+Timing score: 51569048 
+
+Dumping design to file dGMUX_BKeys_master.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = Completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = -95.100
+PAR_SUMMARY::Timing score<setup/<ns>> = 51569.048
+PAR_SUMMARY::Worst  slack<hold /<ns>> = -0.221
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.820
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 7 secs 
+Total REAL time to completion: 7 secs 
+
+par done!
+
+Note: user must run 'Trace' for timing closure signoff.
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+trce -f "dGMUX_BKeys_master.pt" -o "dGMUX_BKeys_master.twr" "dGMUX_BKeys_master.ncd" "dGMUX_BKeys_master.prf"
+trce:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading design for application trce from file dgmux_bkeys_master.ncd.
+Design name: gGMUX_BKeys
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFXP2-5E
+Package:     CSBGA132
+Performance: 5
+Loading device for application trce from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.42.
+Performance Hardware Data Status:   Final          Version 11.5.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.0.240.2
+Fri Apr 02 02:37:23 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o dGMUX_BKeys_master.twr -gui -msgset C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/promote.xml dGMUX_BKeys_master.ncd dGMUX_BKeys_master.prf 
+Design file:     dgmux_bkeys_master.ncd
+Preference file: dgmux_bkeys_master.prf
+Device,speed:    LFXP2-5E,5
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+Report Type:     based on TRACE automatically generated preferences
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 2011  Score: 51569048
+Cumulative negative slack: 51569048
+
+Constraints cover 4149 paths, 72 nets, and 1018 connections (93.22% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2
+Fri Apr 02 02:37:23 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o dGMUX_BKeys_master.twr -gui -msgset C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/promote.xml dGMUX_BKeys_master.ncd dGMUX_BKeys_master.prf 
+Design file:     dgmux_bkeys_master.ncd
+Preference file: dgmux_bkeys_master.prf
+Device,speed:    LFXP2-5E,m
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 6  Score: 820
+Cumulative negative slack: 820
+
+Constraints cover 4149 paths, 72 nets, and 1018 connections (93.22% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 2011 (setup), 6 (hold)
+Score: 51569048 (setup), 820 (hold)
+Cumulative negative slack: 51569868 (51569048+820)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Total CPU Time: 1 secs 
+Total REAL Time: 2 secs 
+Peak Memory Usage: 154 MB
+
+
 tmcheck -par "dGMUX_BKeys_master.par" 
 
-bitgen -f "dGMUX_BKeys_master.t2b" -w "dGMUX_BKeys_master.ncd" -jedec -e -s "C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.sec" -k "C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.bek" "dGMUX_BKeys_master.prf"
+bitgen -f "dGMUX_BKeys_master.t2b" -w "dGMUX_BKeys_master.ncd" -jedec -e -s "C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.sec" -k "C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.bek" "dGMUX_BKeys_master.prf"
 
 
 BITGEN: Bitstream Generator Diamond (64-bit) 3.12.0.240.2

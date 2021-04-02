@@ -7,14 +7,15 @@ Design Information
 
 Command line:   map -a LatticeXP2 -p LFXP2-5E -t CSBGA132 -s 5 -oc Commercial
      dGMUX_BKeys_master.ngd -o dGMUX_BKeys_master_map.ncd -pr
-     dGMUX_BKeys_master.prf -mp dGMUX_BKeys_master.mrp -lpf
-     C:/Users/Sjenja/source/repos/dGMUX/master/dGMUX_BKeys_master.lpf -lpf
-     C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf -gui 
+     dGMUX_BKeys_master.prf -mp dGMUX_BKeys_master.mrp -lpf C:/Users/Sjenja/sour
+     ce/repos/dGMUX/dGMUX_BKeys/master/dGMUX_BKeys_master.lpf -lpf
+     C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf -gui -msgset
+     C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/promote.xml 
 Target Vendor:  LATTICE
 Target Device:  LFXP2-5ECSBGA132
 Target Performance:   5
 Mapper:  mg5a00,  version:  Diamond (64-bit) 3.12.0.240.2
-Mapped on:  04/02/21  00:36:03
+Mapped on:  04/02/21  02:37:12
 
 Design Summary
 --------------
@@ -59,17 +60,17 @@ Design Summary
    MULT18X18ADDSUBB    0
    MULT18X18ADDSUBSUMB 0
    MULT9X9B            0
-   MULT9X9ADDSUBB      0
 
                                     Page 1
 
 
 
 
-Design:  gGMUX_BKeys                                   Date:  04/02/21  00:36:03
+Design:  gGMUX_BKeys                                   Date:  04/02/21  02:37:12
 
 Design Summary (cont)
 ---------------------
+   MULT9X9ADDSUBB      0
    MULT9X9ADDSUBSUMB   0
    --------------------------------
    Number of Used DSP Sites:  0 out of 24 (0 %)
@@ -122,40 +123,48 @@ Design Summary (cont)
    Number of errors:    0
      
 
-Design Errors/Warnings
-----------------------
 
-WARNING - map: C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf(24): Semantic
+
+
 
                                     Page 2
 
 
 
 
-Design:  gGMUX_BKeys                                   Date:  04/02/21  00:36:03
+Design:  gGMUX_BKeys                                   Date:  04/02/21  02:37:12
 
-Design Errors/Warnings (cont)
------------------------------
-     error in "IOBUF PORT "LPC_AD[0]" IO_TYPE=LVCMOS33 PULLMODE=NONE
+Design Errors/Warnings
+----------------------
+
+WARNING - map:
+     C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(24):
+     Semantic error in "IOBUF PORT "LPC_AD[0]" IO_TYPE=LVCMOS33 PULLMODE=NONE
      SLEWRATE=SLOW ;": Port "LPC_AD[0]" does not exist in the design. This
      preference has been disabled.
-WARNING - map: C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf(26): Semantic
-     error in "IOBUF PORT "LPC_AD[1]" IO_TYPE=LVCMOS33 PULLMODE=NONE
+WARNING - map:
+     C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(26):
+     Semantic error in "IOBUF PORT "LPC_AD[1]" IO_TYPE=LVCMOS33 PULLMODE=NONE
      SLEWRATE=SLOW ;": Port "LPC_AD[1]" does not exist in the design. This
      preference has been disabled.
-WARNING - map: C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf(28): Semantic
-     error in "IOBUF PORT "LPC_AD[2]" IO_TYPE=LVCMOS33 PULLMODE=NONE
+WARNING - map:
+     C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(28):
+     Semantic error in "IOBUF PORT "LPC_AD[2]" IO_TYPE=LVCMOS33 PULLMODE=NONE
      SLEWRATE=SLOW ;": Port "LPC_AD[2]" does not exist in the design. This
      preference has been disabled.
-WARNING - map: C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf(30): Semantic
-     error in "IOBUF PORT "LPC_AD[3]" IO_TYPE=LVCMOS33 PULLMODE=NONE
+WARNING - map:
+     C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(30):
+     Semantic error in "IOBUF PORT "LPC_AD[3]" IO_TYPE=LVCMOS33 PULLMODE=NONE
      SLEWRATE=SLOW ;": Port "LPC_AD[3]" does not exist in the design. This
      preference has been disabled.
-WARNING - map: C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf(33): Semantic
-     error in "IOBUF PORT "LPC_FRAME_L" IO_TYPE=LVCMOS33 ;": Port "LPC_FRAME_L"
-     does not exist in the design. This preference has been disabled.
-WARNING - map: C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys.lpf(36): Semantic
-     error in "IOBUF PORT "LPCPLUS_RESET_L" IO_TYPE=LVCMOS33 ;": Port
+WARNING - map:
+     C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(33):
+     Semantic error in "IOBUF PORT "LPC_FRAME_L" IO_TYPE=LVCMOS33 ;": Port
+     "LPC_FRAME_L" does not exist in the design. This preference has been
+     disabled.
+WARNING - map:
+     C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys.lpf(36):
+     Semantic error in "IOBUF PORT "LPCPLUS_RESET_L" IO_TYPE=LVCMOS33 ;": Port
      "LPCPLUS_RESET_L" does not exist in the design. This preference has been
      disabled.
 WARNING - map: input pad net 'LPC_AD[3]' has no legal load.
@@ -183,6 +192,16 @@ IO (PIO) Attributes
 +---------------------+-----------+-----------+------------+------------+
 | IO Name             | Direction | Levelmode | IO         | FIXEDDELAY |
 |                     |           |  IO_TYPE  | Register   |            |
+
+                                    Page 3
+
+
+
+
+Design:  gGMUX_BKeys                                   Date:  04/02/21  02:37:12
+
+IO (PIO) Attributes (cont)
+--------------------------
 +---------------------+-----------+-----------+------------+------------+
 | LVDS_A_DATA[0]      | OUTPUT    | SSTL18D_II|            |            |
 +---------------------+-----------+-----------+------------+------------+
@@ -192,16 +211,6 @@ IO (PIO) Attributes
 +---------------------+-----------+-----------+------------+------------+
 | LVDS_DDC_SEL_EG     | OUTPUT    | LVCMOS33  |            |            |
 +---------------------+-----------+-----------+------------+------------+
-
-                                    Page 3
-
-
-
-
-Design:  gGMUX_BKeys                                   Date:  04/02/21  00:36:03
-
-IO (PIO) Attributes (cont)
---------------------------
 | LVDS_DDC_SEL_IG     | OUTPUT    | LVCMOS33  |            |            |
 +---------------------+-----------+-----------+------------+------------+
 | EG_RESET_L          | OUTPUT    | LVCMOS33  |            |            |
@@ -249,6 +258,16 @@ IO (PIO) Attributes (cont)
 | LVDS_IG_PANEL_PWR   | INPUT     | LVCMOS33  |            |            |
 +---------------------+-----------+-----------+------------+------------+
 | LPC_CLK33M_GMUX     | INPUT     | LVCMOS33  |            |            |
+
+                                    Page 4
+
+
+
+
+Design:  gGMUX_BKeys                                   Date:  04/02/21  02:37:12
+
+IO (PIO) Attributes (cont)
+--------------------------
 +---------------------+-----------+-----------+------------+------------+
 | GMUX_RESET_L        | INPUT     | LVCMOS33  |            |            |
 +---------------------+-----------+-----------+------------+------------+
@@ -258,16 +277,6 @@ Removed logic
 
 Block GSR_INST undriven or does not drive anything - clipped.
 Signal PWM_Counter_402_add_4_17/CO undriven or does not drive anything -
-
-                                    Page 4
-
-
-
-
-Design:  gGMUX_BKeys                                   Date:  04/02/21  00:36:03
-
-Removed logic (cont)
---------------------
      clipped.
 Signal add_656_17/CO undriven or does not drive anything - clipped.
 Signal add_643_add_4_2/S1 undriven or does not drive anything - clipped.
@@ -312,17 +321,8 @@ Run Time and Memory Usage
 
    Total CPU Time: 0 secs  
    Total REAL Time: 0 secs  
-   Peak Memory Usage: 61 MB
+   Peak Memory Usage: 60 MB
         
-
-
-
-
-
-
-
-
-
 
 
                                     Page 5

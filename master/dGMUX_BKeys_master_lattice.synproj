@@ -30,12 +30,12 @@
 
 
 -lpf 1
--p "C:/Users/Sjenja/source/repos/dGMUX"
--ver "C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys_main.v"
+-p "C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys"
+-ver "C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/dGMUX_BKeys_main.v"
 -top gGMUX_BKeys
 
 
--p "C:/lscc/diamond/3.12/ispfpga/mg5a00/data" "C:/Users/Sjenja/source/repos/dGMUX/master" "C:/Users/Sjenja/source/repos/dGMUX"
+-p "C:/lscc/diamond/3.12/ispfpga/mg5a00/data" "C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/master" "C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys"
 
 -ngd "dGMUX_BKeys_master.ngd"
 
