@@ -19,6 +19,8 @@ As of yet there is no way of syncing the on-screen pop-up brightness level indic
 # Flashing the XP2-5E
 There is plenty of information on the web how to go about  getting the right JTAG flasher and the oppropriate software, some info can be found on the [dosdude1](https://www.youtube.com/watch?v=lJUyOysbl08) video detailing the hardware connections. [Lattice Diamond](https://www.latticesemi.com/Products/DesignSoftwareAndIP/FPGAandLDS/LatticeDiamond) software was used in this project with the free license available by signing up. The Lattice HW-USBN-2A was used as the JTAG flasher.
 
+* A standalone programmer software can be used [Lattice Programmer](https://www.latticesemi.com/programmer) and the latest release file **dGMUX_BKeys_master.jed** in the  **Release** section if you dont wanner comlipe the project yourself. 
+
 # Hardware Modification
 
 Keyboard signal is connected to the FPGA through the GMUX_RESET_L pin 81 of U9600. The R2887(820-2915 Board) must be removed and a wire from the R2887 pad pin 2 is soldered to the WS_KBD23(J5713-pin-6) keybord connecter pin or U5701 pin 48.
