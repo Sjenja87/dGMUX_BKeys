@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Fri Apr 02 23:37:36 2021
+Mon Apr 12 15:57:52 2021
 
 
 Command Line:  synthesis -f dGMUX_BKeys_master_lattice.synproj -gui -msgset C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/promote.xml 
@@ -78,17 +78,17 @@ Analyzing Verilog file c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkey
 Analyzing Verilog file C:/lscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/xp2.v. VERI-1482
 Top module name (Verilog): gGMUX_BKeys
 INFO - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(1): compiling module gGMUX_BKeys. VERI-1018
-WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(209): using initial value of Periode since it is never assigned. VERI-1220
-WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(118): expression size 32 truncated to fit in target size 4. VERI-1209
-WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(125): expression size 32 truncated to fit in target size 11. VERI-1209
-WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(132): expression size 32 truncated to fit in target size 17. VERI-1209
-WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(146): expression size 32 truncated to fit in target size 6. VERI-1209
-WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(170): expression size 32 truncated to fit in target size 23. VERI-1209
-WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(184): expression size 32 truncated to fit in target size 5. VERI-1209
-WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(186): expression size 32 truncated to fit in target size 5. VERI-1209
-WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(204): expression size 32 truncated to fit in target size 1. VERI-1209
-WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(247): expression size 32 truncated to fit in target size 17. VERI-1209
-WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(252): expression size 32 truncated to fit in target size 1. VERI-1209
+WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(220): using initial value of Periode since it is never assigned. VERI-1220
+WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(129): expression size 32 truncated to fit in target size 4. VERI-1209
+WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(136): expression size 32 truncated to fit in target size 11. VERI-1209
+WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(143): expression size 32 truncated to fit in target size 17. VERI-1209
+WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(157): expression size 32 truncated to fit in target size 6. VERI-1209
+WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(181): expression size 32 truncated to fit in target size 23. VERI-1209
+WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(195): expression size 32 truncated to fit in target size 5. VERI-1209
+WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(197): expression size 32 truncated to fit in target size 5. VERI-1209
+WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(215): expression size 32 truncated to fit in target size 1. VERI-1209
+WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(258): expression size 32 truncated to fit in target size 17. VERI-1209
+WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(263): expression size 32 truncated to fit in target size 1. VERI-1209
 Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/mg5a00/data/mg5alib.ngl'...
 Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/ep5a00/data/ep5alib.ngl'...
 Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/ep5g00/data/ep5glib.ngl'...
@@ -139,8 +139,8 @@ WARNING - synthesis: I/O Port LVDS_A_CLK 's net has no driver and is unused.
 WARNING - synthesis: I/O Port LVDS_B_CLK 's net has no driver and is unused.
 WARNING - synthesis: I/O Port LCD_BKLT_EN 's net has no driver and is unused.
 WARNING - synthesis: I/O Port LCD_PWR_EN 's net has no driver and is unused.
-WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(132): Register add_117_e1_i0_i16 is stuck at Zero. VDB-5013
-WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(238): Register Duty_Cycle_i17 is stuck at Zero. VDB-5013
+WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(143): Register add_117_e1_i0_i16 is stuck at Zero. VDB-5013
+WARNING - synthesis: c:/users/sjenja/source/repos/dgmux/dgmux_bkeys/dgmux_bkeys_main.v(249): Register Duty_Cycle_i17 is stuck at Zero. VDB-5013
 GSR will not be inferred because no asynchronous signal was found in the netlist.
 WARNING - synthesis: Initial value found on instance Duty_Cycle_i3 will be ignored.
 WARNING - synthesis: Initial value found on instance Duty_Cycle_i4 will be ignored.
@@ -171,7 +171,7 @@ FD1S3JX => 1
 GSR => 1
 IB => 11
 L6MUX21 => 1
-OB => 18
+OB => 21
 ORCALUT4 => 195
 PFUMX => 22
 ################### End Area Report ##################
@@ -222,8 +222,8 @@ clk0 [get_nets LPC_CLK33M_GMUX_c]       |  200.000 MHz|   59.189 MHz|    11 *
 2 constraints not met.
 
 
-Peak Memory Usage: 96.348  MB
+Peak Memory Usage: 96.043  MB
 
 --------------------------------------------------------------
-Elapsed CPU time for LSE flow : 2.438  secs
+Elapsed CPU time for LSE flow : 2.531  secs
 --------------------------------------------------------------

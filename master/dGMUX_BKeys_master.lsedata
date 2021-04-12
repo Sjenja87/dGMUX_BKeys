@@ -20,7 +20,7 @@
 <unit name = "gGMUX_BKeys">
 
     <!--
-        Top Level Pins: 29
+        Top Level Pins: 32
     -->
 
     <pins>
@@ -51,6 +51,9 @@
         <pitem  name = "EG_RESET_L"  direction = "out"  />
         <pitem  name = "LVDS_DDC_SEL_IG"  direction = "out"  />
         <pitem  name = "LVDS_DDC_SEL_EG"  direction = "out"  />
+        <pitem  name = "DP_MUX_EN"  direction = "out"  />
+        <pitem  name = "DP_MUX_SEL_EG"  direction = "out"  />
+        <pitem  name = "GMUX_INT"  direction = "out"  />
         <pitem  name = "LPC_CLK33M_GMUX"  direction = "in"  />
         <pitem  name = "GMUX_RESET_L"  direction = "in"  />
     </pins>

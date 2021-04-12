@@ -10,7 +10,7 @@ Running DRC...
 DRC complete with no errors or warnings
 
 Design Results:
-    415 blocks expanded
+    418 blocks expanded
 completed the first expansion
 All blocks are expanded and NGD expansion is successful.
 Writing NGD file dGMUX_BKeys_master.ngd.

@@ -20,8 +20,8 @@
 				<BScanVal>0</BScanVal>
 			</Bypass>
 			<File>C:/Users/Sjenja/source/repos/dGMUX/dGMUX_BKeys/master/dGMUX_BKeys_master.jed</File>
-			<FileTime>04/02/21 23:37:57</FileTime>
-			<JedecChecksum>0x9605</JedecChecksum>
+			<FileTime>04/12/21 15:58:13</FileTime>
+			<JedecChecksum>0x933C</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>

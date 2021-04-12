@@ -14,42 +14,45 @@ Performance Grade:      5
 PACKAGE:          CSBGA132
 Package Status:                     Final          Version 1.42
 
-Fri Apr 02 23:37:46 2021
+Mon Apr 12 15:58:03 2021
 
 Pinout by Port Name:
-+-------------------+----------+----------------+-------+-------------------------------+
-| Port Name         | Pin/Bank | Buffer Type    | Site  | Properties                    |
-+-------------------+----------+----------------+-------+-------------------------------+
-| EG_RESET_L        | P5/5     | LVCMOS33_OUT   | PB16A | DRIVE:12mA SLEW:FAST PULL:UP  |
-| GMUX_RESET_L      | K3/6     | LVCMOS33_IN    | PL15A | SLEW:FAST PULL:UP             |
-| GPUVCORE_EN       | P6/5     | LVCMOS33_OUT   | PB17A | DRIVE:12mA SLEW:FAST PULL:UP  |
-| LCD_BKLT_EN       | P2/5     | LVCMOS33_OUT   | PB7A  | DRIVE:12mA SLEW:FAST PULL:UP  |
-| LCD_BKLT_PWM      | N2/5     | LVCMOS33_OUT   | PB7B  | DRIVE:12mA SLEW:FAST          |
-| LCD_PWR_EN        | N8/5     | LVCMOS33_OUT   | PB19B | DRIVE:12mA SLEW:FAST PULL:UP  |
-| LPC_CLK33M_GMUX   | N12/4    | LVCMOS33_IN    | PB28A | SLEW:FAST PULL:UP             |
-| LVDS_A_CLK        | A6/0     | SSTL18D_II_OUT | PT15A | DRIVE:12mA SLEW:FAST          |
-| LVDS_A_DATA[0]    | A8/0     | SSTL18D_II_OUT | PT17A | DRIVE:12mA SLEW:FAST          |
-| LVDS_A_DATA[1]    | A9/0     | SSTL18D_II_OUT | PT18A | DRIVE:12mA SLEW:FAST          |
-| LVDS_A_DATA[2]    | B10/0    | SSTL18D_II_OUT | PT19A | DRIVE:12mA SLEW:FAST          |
-| LVDS_B_CLK        | C8/0     | SSTL18D_II_OUT | PT16A | DRIVE:12mA SLEW:FAST          |
-| LVDS_B_DATA[0]    | A2/0     | SSTL18D_II_OUT | PT7A  | DRIVE:12mA SLEW:FAST          |
-| LVDS_B_DATA[1]    | A1/0     | SSTL18D_II_OUT | PT8A  | DRIVE:12mA SLEW:FAST          |
-| LVDS_B_DATA[2]    | C5/0     | SSTL18D_II_OUT | PT9A  | DRIVE:12mA SLEW:FAST          |
-| LVDS_DDC_SEL_EG   | P4/5     | LVCMOS33_OUT   | PB14A | DRIVE:12mA SLEW:FAST PULL:UP  |
-| LVDS_DDC_SEL_IG   | N4/5     | LVCMOS33_OUT   | PB14B | DRIVE:12mA SLEW:FAST PULL:UP  |
-| LVDS_IG_A_CLK     | H1/7     | SSTL18D_II_IN  | PL12A | SLEW:FAST                     |
-| LVDS_IG_A_DATA[0] | D1/7     | SSTL18D_II_IN  | PL7A  | SLEW:FAST                     |
-| LVDS_IG_A_DATA[1] | D2/7     | SSTL18D_II_IN  | PL8A  | SLEW:FAST                     |
-| LVDS_IG_A_DATA[2] | F1/7     | SSTL18D_II_IN  | PL9A  | SLEW:FAST                     |
-| LVDS_IG_BKL_ON    | N14/3    | LVCMOS33_IN    | PR24A | SLEW:FAST PULL:DOWN           |
-| LVDS_IG_B_DATA[0] | F3/7     | SSTL18D_II_IN  | PL10A | SLEW:FAST                     |
-| LVDS_IG_B_DATA[1] | H2/7     | SSTL18D_II_IN  | PL11A | SLEW:FAST                     |
-| LVDS_IG_B_DATA[2] | B1/7     | SSTL18D_II_IN  | PL2A  | SLEW:FAST                     |
-| LVDS_IG_PANEL_PWR | L14/3    | LVCMOS33_IN    | PR14A | SLEW:FAST PULL:DOWN           |
-| P1V0GPU_EN        | M6/5     | LVCMOS33_OUT   | PB17B | DRIVE:12mA SLEW:FAST PULL:UP  |
-| P1V5FB1V8GPU_R_EN | P7/5     | LVCMOS33_OUT   | PB18A | DRIVE:12mA SLEW:FAST PULL:UP  |
-| P3V3GPU_EN        | M5/5     | LVCMOS33_OUT   | PB16B | DRIVE:12mA SLEW:FAST PULL:UP  |
-+-------------------+----------+----------------+-------+-------------------------------+
++-------------------+----------+----------------+-------+---------------------------------+
+| Port Name         | Pin/Bank | Buffer Type    | Site  | Properties                      |
++-------------------+----------+----------------+-------+---------------------------------+
+| DP_MUX_EN         | N3/5     | LVCMOS33_OUT   | PB15A | DRIVE:12mA SLEW:FAST PULL:UP    |
+| DP_MUX_SEL_EG     | M4/5     | LVCMOS33_OUT   | PB15B | DRIVE:12mA SLEW:FAST PULL:DOWN  |
+| EG_RESET_L        | P5/5     | LVCMOS33_OUT   | PB16A | DRIVE:12mA SLEW:FAST PULL:UP    |
+| GMUX_INT          | P14/4    | LVCMOS33_OUT   | PB28B | DRIVE:12mA SLEW:FAST PULL:UP    |
+| GMUX_RESET_L      | K3/6     | LVCMOS33_IN    | PL15A | SLEW:FAST PULL:UP               |
+| GPUVCORE_EN       | P6/5     | LVCMOS33_OUT   | PB17A | DRIVE:12mA SLEW:FAST PULL:UP    |
+| LCD_BKLT_EN       | P2/5     | LVCMOS33_OUT   | PB7A  | DRIVE:12mA SLEW:FAST PULL:UP    |
+| LCD_BKLT_PWM      | N2/5     | LVCMOS33_OUT   | PB7B  | DRIVE:12mA SLEW:FAST            |
+| LCD_PWR_EN        | N8/5     | LVCMOS33_OUT   | PB19B | DRIVE:12mA SLEW:FAST PULL:UP    |
+| LPC_CLK33M_GMUX   | N12/4    | LVCMOS33_IN    | PB28A | SLEW:FAST PULL:UP               |
+| LVDS_A_CLK        | A6/0     | SSTL18D_II_OUT | PT15A | DRIVE:12mA SLEW:FAST            |
+| LVDS_A_DATA[0]    | A8/0     | SSTL18D_II_OUT | PT17A | DRIVE:12mA SLEW:FAST            |
+| LVDS_A_DATA[1]    | A9/0     | SSTL18D_II_OUT | PT18A | DRIVE:12mA SLEW:FAST            |
+| LVDS_A_DATA[2]    | B10/0    | SSTL18D_II_OUT | PT19A | DRIVE:12mA SLEW:FAST            |
+| LVDS_B_CLK        | C8/0     | SSTL18D_II_OUT | PT16A | DRIVE:12mA SLEW:FAST            |
+| LVDS_B_DATA[0]    | A2/0     | SSTL18D_II_OUT | PT7A  | DRIVE:12mA SLEW:FAST            |
+| LVDS_B_DATA[1]    | A1/0     | SSTL18D_II_OUT | PT8A  | DRIVE:12mA SLEW:FAST            |
+| LVDS_B_DATA[2]    | C5/0     | SSTL18D_II_OUT | PT9A  | DRIVE:12mA SLEW:FAST            |
+| LVDS_DDC_SEL_EG   | P4/5     | LVCMOS33_OUT   | PB14A | DRIVE:12mA SLEW:FAST PULL:UP    |
+| LVDS_DDC_SEL_IG   | N4/5     | LVCMOS33_OUT   | PB14B | DRIVE:12mA SLEW:FAST PULL:UP    |
+| LVDS_IG_A_CLK     | H1/7     | SSTL18D_II_IN  | PL12A | SLEW:FAST                       |
+| LVDS_IG_A_DATA[0] | D1/7     | SSTL18D_II_IN  | PL7A  | SLEW:FAST                       |
+| LVDS_IG_A_DATA[1] | D2/7     | SSTL18D_II_IN  | PL8A  | SLEW:FAST                       |
+| LVDS_IG_A_DATA[2] | F1/7     | SSTL18D_II_IN  | PL9A  | SLEW:FAST                       |
+| LVDS_IG_BKL_ON    | N14/3    | LVCMOS33_IN    | PR24A | SLEW:FAST PULL:DOWN             |
+| LVDS_IG_B_DATA[0] | F3/7     | SSTL18D_II_IN  | PL10A | SLEW:FAST                       |
+| LVDS_IG_B_DATA[1] | H2/7     | SSTL18D_II_IN  | PL11A | SLEW:FAST                       |
+| LVDS_IG_B_DATA[2] | B1/7     | SSTL18D_II_IN  | PL2A  | SLEW:FAST                       |
+| LVDS_IG_PANEL_PWR | L14/3    | LVCMOS33_IN    | PR14A | SLEW:FAST PULL:DOWN             |
+| P1V0GPU_EN        | M6/5     | LVCMOS33_OUT   | PB17B | DRIVE:12mA SLEW:FAST PULL:UP    |
+| P1V5FB1V8GPU_R_EN | P7/5     | LVCMOS33_OUT   | PB18A | DRIVE:12mA SLEW:FAST PULL:UP    |
+| P3V3GPU_EN        | M5/5     | LVCMOS33_OUT   | PB16B | DRIVE:12mA SLEW:FAST PULL:UP    |
++-------------------+----------+----------------+-------+---------------------------------+
 
 Vccio by Bank:
 +------+-------+
@@ -57,7 +60,7 @@ Vccio by Bank:
 +------+-------+
 | 0    | 1.8V  |
 | 3    |       |
-| 4    |       |
+| 4    | 3.3V  |
 | 5    | 3.3V  |
 | 6    |       |
 | 7    |       |
@@ -133,7 +136,7 @@ Vccio by Bank:
 | L2/6     |     unused, PULL:UP |            |                | PL15B | LDQ18                |
 | L3/6     |     unused, PULL:UP |            |                | PL14B | PCLKC6_0/LDQ18       |
 | L14/3    | LVDS_IG_PANEL_PWR   | LOCATED    | LVCMOS33_IN    | PR14A | PCLKT3_0/RDQ18       |
-| M4/5     |     unused, PULL:UP |            |                | PB15B | BDQ15                |
+| M4/5     | DP_MUX_SEL_EG       | LOCATED    | LVCMOS33_OUT   | PB15B | BDQ15                |
 | M5/5     | P3V3GPU_EN          | LOCATED    | LVCMOS33_OUT   | PB16B | BDQ15                |
 | M6/5     | P1V0GPU_EN          | LOCATED    | LVCMOS33_OUT   | PB17B | BDQ15                |
 | M7/5     |     unused, PULL:UP |            |                | PB18B | BDQ15                |
@@ -141,7 +144,7 @@ Vccio by Bank:
 | M13/3    |     unused, PULL:UP |            |                | PR14B | PCLKC3_0/RDQ18       |
 | N1/6     |     unused, PULL:UP |            |                | PL25A | VREF1_6              |
 | N2/5     | LCD_BKLT_PWM        | LOCATED    | LVCMOS33_OUT   | PB7B  | VREF2_5              |
-| N3/5     |     unused, PULL:UP |            |                | PB15A | BDQS15               |
+| N3/5     | DP_MUX_EN           | LOCATED    | LVCMOS33_OUT   | PB15A | BDQS15               |
 | N4/5     | LVDS_DDC_SEL_IG     | LOCATED    | LVCMOS33_OUT   | PB14B | BDQ15                |
 | N7/5     |     unused, PULL:UP |            |                | PB19A | PCLKT5_0/BDQ15       |
 | N8/5     | LCD_PWR_EN          | LOCATED    | LVCMOS33_OUT   | PB19B | PCLKC5_0/BDQ15       |
@@ -159,7 +162,7 @@ Vccio by Bank:
 | P10/4    |     unused, PULL:UP |            |                | PB26A | LRC_GPLLT_IN_A/BDQ24 |
 | P12/4    |     unused, PULL:UP |            |                | PB27A | LRC_GPLLT_FB_A/BDQ24 |
 | P13/4    |     unused, PULL:UP |            |                | PB27B | LRC_GPLLC_FB_A/BDQ24 |
-| P14/4    |     unused, PULL:UP |            |                | PB28B | VREF2_4/BDQ24        |
+| P14/4    | GMUX_INT            | LOCATED    | LVCMOS33_OUT   | PB28B | VREF2_4/BDQ24        |
 | PB2A/0   |     unused, PULL:UP |            |                | PB2A  |                      |
 | PB2B/0   |     unused, PULL:UP |            |                | PB2B  |                      |
 | PB3A/0   |     unused, PULL:UP |            |                | PB3A  |                      |
@@ -280,7 +283,10 @@ Vccio by Bank:
 List of All Pins' Locate Preferences Based on Final Placement After PAR 
 to Help Users Lock Down ALL the Pins Easily (by Simply Copy & Paste): 
 
+LOCATE  COMP  "DP_MUX_EN"  SITE  "N3";
+LOCATE  COMP  "DP_MUX_SEL_EG"  SITE  "M4";
 LOCATE  COMP  "EG_RESET_L"  SITE  "P5";
+LOCATE  COMP  "GMUX_INT"  SITE  "P14";
 LOCATE  COMP  "GMUX_RESET_L"  SITE  "K3";
 LOCATE  COMP  "GPUVCORE_EN"  SITE  "P6";
 LOCATE  COMP  "LCD_BKLT_EN"  SITE  "P2";
@@ -320,7 +326,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Fri Apr 02 23:37:46 2021
+Mon Apr 12 15:58:03 2021
 
 
 

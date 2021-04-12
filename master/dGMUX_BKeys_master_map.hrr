@@ -5,6 +5,6 @@ Report for cell gGMUX_BKeys
                                   cell	      count    Res Usage(%)
                                   SLIC	     153.00        100.0
                                   LUT4	     199.00        100.0
-                                 IOBUF	         29        100.0
+                                 IOBUF	         32        100.0
                                 PFUREG	        118        100.0
                                 RIPPLE	         46        100.0

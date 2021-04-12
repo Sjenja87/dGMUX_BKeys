@@ -1,7 +1,7 @@
 ----------------------------------------------------------------------
 Report for cell gGMUX_BKeys.TECH
 Register bits:  118 of 3822 (3.087%)
-I/O cells:      29
+I/O cells:      32
                                   Cell usage:
                                cell     count   Res Usage(%)
                               CCU2B        46          100.0
@@ -15,7 +15,7 @@ I/O cells:      29
                                  IB        11          100.0
                             L6MUX21         1          100.0
                                LUT4       194          100.0
-                                 OB        18          100.0
+                                 OB        21          100.0
                            ORCALUT4         1          100.0
                               PFUMX        22          100.0
-                              TOTAL       412
+                              TOTAL       415

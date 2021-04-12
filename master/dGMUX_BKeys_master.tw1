@@ -13,7 +13,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.0.240.2
-Fri Apr 02 23:37:42 2021
+Mon Apr 12 15:57:58 2021
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -200,11 +200,11 @@ Timing summary (Setup):
 Timing errors: 4158  Score: 170750161
 Cumulative negative slack: 170750161
 
-Constraints cover 9784 paths, 65 nets, and 1068 connections (90.36% coverage)
+Constraints cover 9784 paths, 65 nets, and 1069 connections (90.36% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2
-Fri Apr 02 23:37:42 2021
+Mon Apr 12 15:57:59 2021
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -337,7 +337,7 @@ Timing summary (Hold):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 9784 paths, 65 nets, and 1105 connections (93.49% coverage)
+Constraints cover 9784 paths, 65 nets, and 1106 connections (93.49% coverage)
 
 
 

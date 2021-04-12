@@ -33,18 +33,23 @@ module gGMUX_BKeys (
 	
 	// DDC signals
 	output	LVDS_DDC_SEL_IG			,
-	output	LVDS_DDC_SEL_EG ,
+	output	LVDS_DDC_SEL_EG 		,
 
+	// Test DP_MUX for IG DP Funk
+	output  DP_MUX_EN				,
+	output  DP_MUX_SEL_EG			,
+	output  GMUX_INT				,
+	
 	/////////////////
 	/// Modifications by Sjenja87 and Romain to implement PWM generation and key press ///
 	// Clock input
-	input  LPC_CLK33M_GMUX ,
+	input  LPC_CLK33M_GMUX 			,
 	
 	// Keyboard Brightness Control Input
 	input  GMUX_RESET_L
 	
 );
-
+	
 	assign LVDS_A_DATA[2:0] = LVDS_IG_A_DATA[2:0];
 
 	assign LVDS_B_DATA[2:0] = LVDS_IG_B_DATA[2:0];
@@ -67,6 +72,12 @@ module gGMUX_BKeys (
 	// Display Config Channel MUX select
 	assign LVDS_DDC_SEL_IG		= 1;
 	assign LVDS_DDC_SEL_EG		= 0;
+	
+	// DP Output IG 
+	
+	assign DP_MUX_EN 			= 1;
+	assign DP_MUX_SEL_EG		= 0;
+	assign GMUX_INT				= 1;
 	
 //////////////////// Modifications by Sjenja87 and Romain to implement the keyboard brightness buttons.
 		
