@@ -28,7 +28,7 @@ Keyboard signal is connected to the FPGA through the GMUX_RESET_L pin 81 of U960
 * PLT_RESET_L must be grounded when flashing, this can be achieved by grounding **R2887 pin 1**(820-2915).
 
 # Disclaimer
- I am not responsible for any damage this causes. This has been tested on an 820-2915 successfully, but results may vary. The FPGA's original configuration cannot be backed up. This means this process is irreversable and once reprogrammed, the original configuration programmed by Apple will be irrecoverably lost.
+ I am not responsible for any damage this causes. This has been tested on an 820-2915 and 820-2914 successfully, but results may vary. The FPGA's original configuration cannot be backed up. This means this process is irreversable and once reprogrammed, the original configuration programmed by Apple will be irrecoverably lost.
  
 # License
 
